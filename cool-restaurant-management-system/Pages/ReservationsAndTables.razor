@@ -1,8 +1,58 @@
 ﻿@page "/reservationAndTables"
 
-<h1>Reservations</h1>
-<h1>Tables</h1>
+<div>
+   <h1>New Reservation</h1>
+   <div>
+      <label>Name:</label>
+      <input/>
+      <label>Phone#:</label>
+      <input/>
+      <label>#Guests:</label>
+      <select>
+         @for (int i = 1; i <= 10; i++)
+         {
+            <option>@i</option>
+         }
+      </select>
+      <label>Table:</label>
+      <input/>
+      <label>Date:</label>
+      <input/>
+      <label>Time:</label>
+      <input/>
+   </div>
+   <div>
+      <button>Delete</button>
+      <button>Sit Reservation</button>
+   </div>
+</div>
+
+<div>
+   <h1>Existing Reservation</h1>
+   <div>
+      <label>Choose Reservation:</label>
+      <select>
+         <option>Placeholder</option>
+      </select>
+   </div>
+      <div>
+         <button>Delete</button>
+         <button>Sit Reservation</button>
+      </div>
+</div>
+
+<div>
+   <h1>Available Tables</h1>
+         <label>Choose Table:</label>
+   <select>
+      <option>Placeholder</option>
+   </select>
+         <div>
+            <button>Delete</button>
+            <button>Sit Reservation</button>
+         </div>
+</div>
 
 @code {
-
+   
 }
