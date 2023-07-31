@@ -11,6 +11,7 @@ public class Reservation
     public int Hour { get; set; }
     public int Minute { get; set; }
 
+
     public Reservation(Customer reservationHolder, int tableId, int day, int month, int hour, int minute)
     {
         ReservationHolder = reservationHolder;

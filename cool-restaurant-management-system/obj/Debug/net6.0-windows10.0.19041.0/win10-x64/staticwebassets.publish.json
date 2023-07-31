@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hVs9JqPiNlMKnV6ilOR/yQtB6I+exrjghUi/GtPjI54=",
+  "Hash": "pTyb+EOOxgmgJncfb2GDgsN9bQbOoJVL4Lx6Ad9E8Xc=",
   "Source": "cool-restaurant-management-system",
   "BasePath": "/",
   "Mode": "Root",
@@ -100,23 +100,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "cool-restaurant-management-system",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -219,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "cool-restaurant-management-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

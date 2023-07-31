@@ -1,0 +1,8 @@
+C:\cprg211\cool-restaurant-management-system\Recursion\obj\Debug\Recursion.csproj.AssemblyReference.cache
+C:\cprg211\cool-restaurant-management-system\Recursion\obj\Debug\Recursion.csproj.SuggestedBindingRedirects.cache
+C:\cprg211\cool-restaurant-management-system\Recursion\obj\Debug\Recursion.csproj.CoreCompileInputs.cache
+C:\cprg211\cool-restaurant-management-system\Recursion\bin\Debug\Recursion.exe.config
+C:\cprg211\cool-restaurant-management-system\Recursion\bin\Debug\Recursion.exe
+C:\cprg211\cool-restaurant-management-system\Recursion\bin\Debug\Recursion.pdb
+C:\cprg211\cool-restaurant-management-system\Recursion\obj\Debug\Recursion.exe
+C:\cprg211\cool-restaurant-management-system\Recursion\obj\Debug\Recursion.pdb

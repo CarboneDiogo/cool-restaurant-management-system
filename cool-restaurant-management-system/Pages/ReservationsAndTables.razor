@@ -1,31 +1,44 @@
 ﻿@page "/reservationAndTables"
 
 <div>
-   <h1>New Reservation</h1>
-   <div>
-      <label>Name:</label>
-      <input/>
-      <label>Phone#:</label>
-      <input/>
-      <label>#Guests:</label>
-      <select>
-         @for (int i = 1; i <= 10; i++)
-         {
-            <option>@i</option>
-         }
-      </select>
-      <label>Date:</label>
-      <input type="date"/>
-      <label>Time:</label>
-      <input/>
-      <label>Available Tables:</label>
-      <input/>
-   </div>
-   <div>
-      <button>Delete</button>
-      <button>Sit Reservation</button>
-   </div>
-</div>
+    <section id="book-a-table" class="book-a-table">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2 class="text-primary">Book A Table</h2>
+                </div>
+            </div>
+
+            <form action="" method="post" role="form">
+                <div class="form-row">
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <input type="number" class="form-control" name="phone" id="phone" placeholder="Your Phone">
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <input type="date" name="date" class="form-control" id="date" placeholder="Date">
+                    </div>
+                    <div class="col-lg-4 col-md-8 form-group">
+                        <input type="time" class="form-control" name="time" id="time" placeholder="Time">
+                    </div>
+                    <div class="col-lg-4 col-md-8 form-group">
+                        <select>
+                            @for(int i = 0; i <= 8; i++)
+                            {
+                                <option>@i</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary float-right mt-3">Book a Table</button>
+            </form>
+        </div>
+    </section>
 
 <div>
    <h1>Existing Reservation</h1>
@@ -51,6 +64,7 @@
             <button>Delete</button>
             <button>Sit Reservation</button>
          </div>
+</div>
 </div>
 
 @code {

@@ -877,9 +877,6 @@
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\open-iconic\FONT-LICENSE">
-      <PackagePath>wwwroot\css\open-iconic\FONT-LICENSE</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css">
       <PackagePath>wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css</PackagePath>
     </AppxPackagedFile>
@@ -897,6 +894,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\open-iconic\font\fonts\open-iconic.woff">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\open-iconic\FONT-LICENSE">
+      <PackagePath>wwwroot\css\open-iconic\FONT-LICENSE</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\open-iconic\ICON-LICENSE">
       <PackagePath>wwwroot\css\open-iconic\ICON-LICENSE</PackagePath>
@@ -1080,6 +1080,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\Pages\ReservationsAndTables.razor.css">
+      <PackagePath>Pages\ReservationsAndTables.razor.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
