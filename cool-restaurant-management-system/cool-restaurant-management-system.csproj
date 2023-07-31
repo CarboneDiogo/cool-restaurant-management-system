@@ -53,4 +53,17 @@
       <None Remove="Pages\ReservationAndTables.css" />
     </ItemGroup>
 
+    <ItemGroup>
+      <MauiImage Include="wwwroot\images\restaurant_unsplash.jpg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\images\restaurant_unsplash.jpg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+      <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
+    </ItemGroup>
+
 </Project>

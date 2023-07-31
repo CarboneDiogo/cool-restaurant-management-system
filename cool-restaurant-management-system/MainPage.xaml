@@ -6,7 +6,7 @@
              x:Class="cool_restaurant_management_system.MainPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
 
-    <ContentPage Title="home">
+    <ContentPage Title="Home">
         <BlazorWebView HostPage="wwwroot/index.html">
             <BlazorWebView.RootComponents>
                 <RootComponent Selector="#app" ComponentType="{x:Type pages:Index}"/>

@@ -907,6 +907,9 @@
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\favicon.ico">
       <PackagePath>wwwroot\favicon.ico</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\images\restaurant_unsplash.jpg">
+      <PackagePath>wwwroot\images\restaurant_unsplash.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
     </AppxPackagedFile>
@@ -1080,6 +1083,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\restaurant_unsplash.scale-100.jpg">
+      <PackagePath>restaurant_unsplash.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Index.razor.css">
+      <PackagePath>Pages\Index.razor.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\Pages\ReservationsAndTables.razor.css">
       <PackagePath>Pages\ReservationsAndTables.razor.css</PackagePath>

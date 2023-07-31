@@ -50,6 +50,7 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+restaurant_unsplash.scale-100.jpg
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png
@@ -57,6 +58,7 @@ splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
 wwwroot\cool-restaurant-management-system.styles.css
 wwwroot\cool-restaurant-management-system.bundle.scp.css
+Pages\Index.razor.css
 Pages\ReservationsAndTables.razor.css
 AboutAssets.txt
 Shared\MainLayout.razor.css
@@ -74,4 +76,5 @@ wwwroot\css\open-iconic\FONT-LICENSE
 wwwroot\css\open-iconic\ICON-LICENSE
 wwwroot\css\open-iconic\README.md
 wwwroot\favicon.ico
+wwwroot\images\restaurant_unsplash.jpg
 wwwroot\index.html

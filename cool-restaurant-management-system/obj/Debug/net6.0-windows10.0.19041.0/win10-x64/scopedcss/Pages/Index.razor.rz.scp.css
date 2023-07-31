@@ -1,0 +1,29 @@
+body[b-cb8hvhylfh]{
+    margin: 0;
+    padding: 0;
+}
+
+.page-background[b-cb8hvhylfh] {
+    background-image: url('/images/restaurant_unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 95vh;
+}
+
+h1[b-cb8hvhylfh] {
+    background-color: black;
+    color: snow;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer[b-cb8hvhylfh] {
+    color: white;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    text-align:end;
+    height:5vh;
+}
