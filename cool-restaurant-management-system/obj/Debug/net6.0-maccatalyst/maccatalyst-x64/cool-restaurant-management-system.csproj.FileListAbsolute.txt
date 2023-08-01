@@ -26,7 +26,12 @@ C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\b
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Primitives.dll
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.JSInterop.dll
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\SQLite-net.dll
+C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.batteries_v2.dll
+C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.core.dll
+C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\System.IO.Pipelines.dll
+C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\libe_sqlite3.dylib
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
@@ -233,6 +238,8 @@ C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\o
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\staticwebassets.pack.json
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\staticwebassets.build.json
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\staticwebassets.development.json
+C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\scopedcss\Pages\Index.razor.rz.scp.css
+C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\scopedcss\Pages\ReservationsAndTables.razor.rz.scp.css
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\scopedcss\bundle\cool-restaurant-management-system.styles.css
@@ -257,6 +264,7 @@ C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\o
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
+C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\restaurant_unsplash.jpg
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\mauifont.stamp

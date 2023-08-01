@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XmG3CQXOgTwavkQjl94pn7G2U96XfwUuiYYDW51pHUE=",
+  "Hash": "2lRLrl9b+KpXAw2GxDrGpUUMRsPBcn1Ge33NQG4roCk=",
   "Source": "cool-restaurant-management-system",
   "BasePath": "/",
   "Mode": "Root",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\cool-restaurant-management-system.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\app-database.db",
+      "SourceId": "cool-restaurant-management-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "app-database.db",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app-database.db"
+    },
+    {
+      "Identity": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\app-database.sqbpro",
+      "SourceId": "cool-restaurant-management-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "app-database.sqbpro",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app-database.sqbpro"
     },
     {
       "Identity": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\css\\app.css",

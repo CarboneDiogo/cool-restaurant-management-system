@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bNQD5dGCg/4ktcDy4RisScF4cVaVx2fRtjY6Dif/jXk=",
+  "Hash": "AHQxKi0wQoR9n7p6OYsh5Gj+GXRTTVUZuTSHy4XmFns=",
   "Source": "cool-restaurant-management-system",
   "BasePath": "/",
   "Mode": "Root",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\images\\restaurant_unsplash.jpg",
+      "SourceId": "cool-restaurant-management-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/restaurant_unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\restaurant_unsplash.jpg"
     },
     {
       "Identity": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\index.html",

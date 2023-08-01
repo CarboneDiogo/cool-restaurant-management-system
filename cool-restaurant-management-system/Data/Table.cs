@@ -1,15 +1,17 @@
 ﻿namespace cool_restaurant_management_system.Data;
-
+using SQLite;
 public class Table
 {
-    public int TableId { get; }
-    private int AvailableSits { get; }
-    public bool IsAvailable;
+    [PrimaryKey, AutoIncrement]
+    public int Id { get; set; }
+    public int Capacity { get; set; }
+    public string Location { get; set; }
 
-    public Table(int tableId, int availableSits, bool isAvailable)
+    public Table(int id, int capacity, string location)
     {
-        TableId = tableId;
-        AvailableSits = availableSits;
-        IsAvailable = isAvailable;
+        Id = id;
+        Capacity = capacity;
+        Location = location;
     }
+    
 }
