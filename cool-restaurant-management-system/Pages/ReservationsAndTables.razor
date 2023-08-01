@@ -1,18 +1,121 @@
 ﻿@page "/reservationAndTables"
 
 <div class="page-background">
-    <div class="centered-container">
-        <div class="page-buttons">
-            <button>New Reservation</button>
-            <button>Existing Reservation</button>
-            <button>Sit Guest</button>
-        </div>
-    </div>
+
+    <Button Clicked="@ShowNewReservationModal">New Reservation</Button> 
+    <Button Clicked="@ShowExistingReservationModal">Existing Reservation</Button>
+    <Button Clicked="@ShowSitGuestModal">Sit Guests</Button>
+
+    <!-- New Reservation Modal -->
+    <Modal @ref="newReservation">
+        <ModalContent Centered>
+            <ModalHeader>
+                <ModalTitle>New Reservation</ModalTitle>
+                <CloseButton />
+            </ModalHeader>
+            <ModalBody>
+                <Field>
+                    <FieldLabel>Name</FieldLabel>
+                    <TextEdit Placeholder="Enter name..." />
+                </Field>
+                <Field>
+                    <FieldLabel>Surname</FieldLabel>
+                    <TextEdit Placeholder="Enter surname..." />
+                </Field>
+            </ModalBody>
+            <ModalFooter>
+                <Button Clicked="@HideNewReservationModal">Close</Button>
+                <Button Clicked="@HideNewReservationModal">Save Changes</Button>
+            </ModalFooter>
+        </ModalContent>
+    </Modal>
+
+    <!-- Existing Reservation Modal -->
+    <Modal @ref="existingReservation">
+        <ModalContent Centered>
+            <ModalHeader>
+                <ModalTitle>Existing Reservation</ModalTitle>
+                <CloseButton />
+            </ModalHeader>
+            <ModalBody>
+                <Field>
+                    <FieldLabel>Name</FieldLabel>
+                    <TextEdit Placeholder="Enter name..." />
+                </Field>
+                <Field>
+                    <FieldLabel>Surname</FieldLabel>
+                    <TextEdit Placeholder="Enter surname..." />
+                </Field>
+            </ModalBody>
+            <ModalFooter>
+                <Button Clicked="@HideExistingReservationModal">Close</Button>
+                <Button Clicked="@HideExistingReservationModal">Save Changes</Button>
+            </ModalFooter>
+        </ModalContent>
+    </Modal>
+
+    <!-- Sit Guest Modal -->
+    <Modal @ref="sitGuest">
+        <ModalContent Centered>
+            <ModalHeader>
+                <ModalTitle>Sit Guest</ModalTitle>
+                <CloseButton />
+            </ModalHeader>
+            <ModalBody>
+                <Field>
+                    <FieldLabel>Name</FieldLabel>
+                    <TextEdit Placeholder="Enter name..." />
+                </Field>
+                <Field>
+                    <FieldLabel>Surname</FieldLabel>
+                    <TextEdit Placeholder="Enter surname..." />
+                </Field>
+            </ModalBody>
+            <ModalFooter>
+                <Button Clicked="@HideSitGuestModal">Close</Button>
+                <Button Clicked="@HideSitGuestModal">Save Changes</Button>
+            </ModalFooter>
+        </ModalContent>
+    </Modal>
 </div>
+
+
 <footer>
     Photo by <a href="https://unsplash.com/@@iamhiteshdewasi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hitesh Dewasi</a> on <a href="https://unsplash.com/photos/5JwBbnyZzfc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </footer>
 
 @code {
-   
+    // reference to the modal component
+    private Modal newReservation;
+    private Modal existingReservation;
+    private Modal sitGuest;
+
+    private Task ShowNewReservationModal()
+    {
+        return newReservation.Show();
+    }
+
+    private Task HideNewReservationModal()
+    {
+        return newReservation.Hide();
+    }
+
+    private Task ShowExistingReservationModal()
+    {
+        return existingReservation.Show();
+    }
+
+    private Task HideExistingReservationModal()
+    {
+        return existingReservation.Hide();
+    }
+    private Task ShowSitGuestModal()
+    {
+        return sitGuest.Show();
+    }
+
+    private Task HideSitGuestModal()
+    {
+        return sitGuest.Hide();
+    }
 }

@@ -70,21 +70,21 @@ h1[b-5w90zd6w32] {
 }
 
 /* Resetting button styling*/
-button[b-3a31ftch47] {
+.button[b-3a31ftch47] {
     margin: 0;
     padding: 0;
     border: none;
     border-radius: initial;
     font-family: inherit;
     font-size: inherit;
-    background-color: initial;
+    background-color: white;
     color: initial;
     box-shadow: none;
     appearance: auto;
     -webkit-appearance: auto;
 }
 
-button[b-3a31ftch47] {
+.button[b-3a31ftch47] {
     width: 30vh;
     background-color: white;
     padding: 25px;
@@ -93,7 +93,7 @@ button[b-3a31ftch47] {
     font-weight: bold;
 }
 
-button:hover[b-3a31ftch47] {
+.button:hover[b-3a31ftch47] {
     background-color: black;
     color: white;
     font-weight: bolder;

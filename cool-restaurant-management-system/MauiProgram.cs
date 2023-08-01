@@ -1,5 +1,9 @@
 ﻿using Microsoft.AspNetCore.Components.WebView.Maui;
 using cool_restaurant_management_system.Data;
+using MudBlazor.Services;
+using Blazorise;
+using Blazorise.Bootstrap;
+
 
 namespace cool_restaurant_management_system;
 
@@ -18,8 +22,14 @@ public static class MauiProgram
             });
 
 		builder.Services.AddMauiBlazorWebView();
-		#if DEBUG
-		builder.Services.AddBlazorWebViewDeveloperTools();
+		builder.Services
+	.AddBlazorise(options =>
+	{
+		options.Immediate = true;
+	})
+	.AddBootstrapProviders();
+#if DEBUG
+        builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
 		
 

@@ -13,21 +13,21 @@
 }
 
 /* Resetting button styling*/
-button {
+.button {
     margin: 0;
     padding: 0;
     border: none;
     border-radius: initial;
     font-family: inherit;
     font-size: inherit;
-    background-color: initial;
+    background-color: white;
     color: initial;
     box-shadow: none;
     appearance: auto;
     -webkit-appearance: auto;
 }
 
-button {
+.button {
     width: 30vh;
     background-color: white;
     padding: 25px;
@@ -36,7 +36,7 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+.button:hover {
     background-color: black;
     color: white;
     font-weight: bolder;

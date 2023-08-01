@@ -50,6 +50,10 @@ h1[b-y601hg0fny] {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+h1[b-5w90zd6w32] {
+    color:white;
+}
 /* /Pages/ReservationsAndTables.razor.rz.scp.css */
 .page-background[b-3a31ftch47] {
     background-image: url('images/reserved_table_unsplash.jpg');
@@ -66,21 +70,21 @@ h1[b-y601hg0fny] {
 }
 
 /* Resetting button styling*/
-button[b-3a31ftch47] {
+.button[b-3a31ftch47] {
     margin: 0;
     padding: 0;
     border: none;
     border-radius: initial;
     font-family: inherit;
     font-size: inherit;
-    background-color: initial;
+    background-color: white;
     color: initial;
     box-shadow: none;
     appearance: auto;
     -webkit-appearance: auto;
 }
 
-button[b-3a31ftch47] {
+.button[b-3a31ftch47] {
     width: 30vh;
     background-color: white;
     padding: 25px;
@@ -89,7 +93,7 @@ button[b-3a31ftch47] {
     font-weight: bold;
 }
 
-button:hover[b-3a31ftch47] {
+.button:hover[b-3a31ftch47] {
     background-color: black;
     color: white;
     font-weight: bolder;
