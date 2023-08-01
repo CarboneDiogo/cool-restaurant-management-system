@@ -83,6 +83,39 @@ header {
     background-color: black;
 }
 
+.customButton {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: initial;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: white;
+    color: initial;
+    box-shadow: none;
+    appearance: auto;
+    -webkit-appearance: auto;
+}
+
+.customButton {
+    width: 30vh;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    color: white !important;
+    padding: 25px;
+    height: 20vh;
+    width: 35vh;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+    .customButton:hover {
+        background-color: rgba(255,255,255, 0.8) !important;
+        color: black !important;
+        font-weight: bolder;
+        font-size: 22px !important;
+        transition: ease-in-out 0.7s all;
+    }
+
 @supports (-webkit-touch-callout: none) {
     .status-bar-safe-area {
         display: flex;

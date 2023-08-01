@@ -2,12 +2,15 @@
 
 <div class="page-background">
 
-    <Button Clicked="@ShowNewReservationModal">New Reservation</Button> 
-    <Button Clicked="@ShowExistingReservationModal">Existing Reservation</Button>
-    <Button Clicked="@ShowSitGuestModal">Sit Guests</Button>
+    <div class="flex-container">
+        <Button class="customButton" Clicked="@ShowNewReservationModal">New Reservation</Button>
+        <Button class="customButton" Clicked="@ShowExistingReservationModal">Existing Reservation</Button>
+        <Button class="customButton" Clicked="@ShowSitGuestModal">Sit Guests</Button>
+    </div>
+
 
     <!-- New Reservation Modal -->
-    <Modal @ref="newReservation">
+    <Modal @ref="newReservation" Animated="true">
         <ModalContent Centered>
             <ModalHeader>
                 <ModalTitle>New Reservation</ModalTitle>

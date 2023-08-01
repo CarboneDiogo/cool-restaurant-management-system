@@ -12,35 +12,10 @@
     justify-content: center;
 }
 
-/* Resetting button styling*/
-.button {
-    margin: 0;
-    padding: 0;
-    border: none;
-    border-radius: initial;
-    font-family: inherit;
-    font-size: inherit;
-    background-color: white;
-    color: initial;
-    box-shadow: none;
-    appearance: auto;
-    -webkit-appearance: auto;
-}
-
-.button {
-    width: 30vh;
-    background-color: white;
-    padding: 25px;
-    height: 15vh;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.button:hover {
-    background-color: black;
-    color: white;
-    font-weight: bolder;
-    transition:ease-in-out 0.5s all;
+.flex-container {
+    display: flex;
+   justify-items: center;
+   background-color: white;
 }
 
 .page-buttons {
