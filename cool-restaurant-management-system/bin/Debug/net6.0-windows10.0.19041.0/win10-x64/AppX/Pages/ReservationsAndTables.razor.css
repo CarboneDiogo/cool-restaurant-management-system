@@ -1,20 +1,52 @@
-﻿#book-a-table {
+﻿.page-background {
+    background-image: url('images/reserved_table_unsplash.jpg');
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.centered-container {
     display: flex;
-    flex-direction: column;
-    padding: 50px 0px;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    margin: 50px 0px;
-    float: left;
-    width: 100%;
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
-.book-a-table p {
-    color: #9a9a9a;
+/* Resetting button styling*/
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: initial;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: initial;
+    color: initial;
+    box-shadow: none;
+    appearance: auto;
+    -webkit-appearance: auto;
 }
 
-.book-a-table textarea {
-    min-height: 200px;
-    max-width: 100%;
+button {
+    width: 30vh;
+    background-color: white;
+    padding: 25px;
+    height: 15vh;
+    font-size: 20px;
+    font-weight: bold;
 }
+
+button:hover {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    transition:ease-in-out 0.5s all;
+}
+
+.page-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+}
+
+

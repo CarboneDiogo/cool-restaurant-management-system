@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\app-database.db"
     },
     {
+      "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\app-database.db-journal",
+      "PackagePath": "staticwebassets\\app-database.db-journal"
+    },
+    {
       "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\app-database.sqbpro",
       "PackagePath": "staticwebassets\\app-database.sqbpro"
     },
@@ -63,6 +67,18 @@
     {
       "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\images\\orders_page.jpg",
+      "PackagePath": "staticwebassets\\images\\orders_page.jpg"
+    },
+    {
+      "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\images\\payment_page.jpg",
+      "PackagePath": "staticwebassets\\images\\payment_page.jpg"
+    },
+    {
+      "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\images\\reserved_table_unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\reserved_table_unsplash.jpg"
     },
     {
       "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\images\\restaurant_unsplash.jpg",

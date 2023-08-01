@@ -50,6 +50,10 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Content Remove="wwwroot\Fonts\Montserrat-Regular.ttf" />
+    </ItemGroup>
+
+    <ItemGroup>
       <None Remove="Pages\ReservationAndTables.css" />
     </ItemGroup>
 
@@ -65,5 +69,13 @@
       <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
       <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
     </ItemGroup>
+
+	<ItemGroup>
+		<MauiFont Include="Resources\Fonts\*" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiFont Include="wwwroot\Fonts\Montserrat-Regular.ttf" />
+	</ItemGroup>
 
 </Project>

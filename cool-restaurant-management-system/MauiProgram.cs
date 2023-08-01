@@ -12,8 +12,10 @@ public static class MauiProgram
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-			});
+				fonts.AddFont("Montserrat-Regular.ttf", "montserrat");
+                fonts.AddFont("Montserrat-Light", "montserrat-light");
+                fonts.AddFont("Montserrat-Bold.ttf", "montserrat-bold");
+            });
 
 		builder.Services.AddMauiBlazorWebView();
 		#if DEBUG

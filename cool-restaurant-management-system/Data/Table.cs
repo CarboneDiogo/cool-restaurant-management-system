@@ -6,12 +6,14 @@ public class Table
     public int Id { get; set; }
     public int Capacity { get; set; }
     public string Location { get; set; }
+    public bool CurrentlyAvailable { get; set; }
 
     public Table(int id, int capacity, string location)
     {
         Id = id;
         Capacity = capacity;
         Location = location;
+        CurrentlyAvailable = true;
     }
     
 }

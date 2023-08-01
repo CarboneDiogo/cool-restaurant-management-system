@@ -28,27 +28,85 @@ footer[b-cb8hvhylfh] {
     text-align:end;
     height:5vh;
 }
+/* /Pages/Orders.razor.rz.scp.css */
+.page-background[b-y601hg0fny] {
+    background-image: url('images/orders_page.jpg');
+    height: 89vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+h1[b-y601hg0fny] {
+    color: white;
+}
+/* /Pages/Payment.razor.rz.scp.css */
+.page-background[b-5w90zd6w32] {
+    background-image: url('images/payment_page.jpg');
+    height: 89vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1[b-5w90zd6w32] {
+    color:white;
+}
 /* /Pages/ReservationsAndTables.razor.rz.scp.css */
-#book-a-table[b-3a31ftch47] {
+.page-background[b-3a31ftch47] {
+    background-image: url('images/reserved_table_unsplash.jpg');
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.centered-container[b-3a31ftch47] {
     display: flex;
-    flex-direction: column;
-    padding: 50px 0px;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    margin: 50px 0px;
-    float: left;
-    width: 100%;
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
-.book-a-table p[b-3a31ftch47] {
-    color: #9a9a9a;
+/* Resetting button styling*/
+button[b-3a31ftch47] {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: initial;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: initial;
+    color: initial;
+    box-shadow: none;
+    appearance: auto;
+    -webkit-appearance: auto;
 }
 
-.book-a-table textarea[b-3a31ftch47] {
-    min-height: 200px;
-    max-width: 100%;
+button[b-3a31ftch47] {
+    width: 30vh;
+    background-color: white;
+    padding: 25px;
+    height: 15vh;
+    font-size: 20px;
+    font-weight: bold;
 }
+
+button:hover[b-3a31ftch47] {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    transition:ease-in-out 0.5s all;
+}
+
+.page-buttons[b-3a31ftch47] {
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+}
+
+
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-43olgpsg9t] {
     position: relative;

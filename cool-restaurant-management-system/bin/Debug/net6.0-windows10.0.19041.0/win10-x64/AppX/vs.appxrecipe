@@ -12,42 +12,42 @@
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
-    <PackageRegistrationPath></PackageRegistrationPath>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>1823D974B2CA5D7A148FD5CF89173BBA026010A30B67864AFF28B60F4D2313B0</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>47F4286682A1C4A673B7167F622F1F4027EC07F47896CADEB205B809C5AC7E98</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>A06841FD-35A1-4F22-8C4B-56F02836F6AD_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>A06841FD-35A1-4F22-8C4B-56F02836F6AD_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>A06841FD-35A1-4F22-8C4B-56F02836F6AD</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
-    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-08-01T04:53:48.035</Modified>
+      <Modified>2023-08-01T16:03:48.271</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-08-01T04:53:47.464</Modified>
+      <Modified>2023-08-01T16:03:47.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.runtimeconfig.json">
       <PackagePath>cool-restaurant-management-system.runtimeconfig.json</PackagePath>
-      <Modified>2023-08-01T04:53:47.229</Modified>
+      <Modified>2023-08-01T15:59:30.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.dll">
       <PackagePath>cool-restaurant-management-system.dll</PackagePath>
-      <Modified>2023-08-01T04:53:45.723</Modified>
+      <Modified>2023-08-01T16:03:46.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>cool-restaurant-management-system.exe</PackagePath>
-      <Modified>2023-08-01T04:53:45.905</Modified>
+      <Modified>2023-08-01T16:03:46.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.16\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1151,7 +1151,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.deps.json">
       <PackagePath>cool-restaurant-management-system.deps.json</PackagePath>
-      <Modified>2023-08-01T04:53:47.816</Modified>
+      <Modified>2023-08-01T16:03:47.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1171,15 +1171,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\cool-restaurant-management-system.styles.css">
       <PackagePath>wwwroot\cool-restaurant-management-system.styles.css</PackagePath>
-      <Modified>2023-08-01T04:52:46.302</Modified>
+      <Modified>2023-08-01T16:02:43.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\cool-restaurant-management-system.bundle.scp.css">
       <PackagePath>wwwroot\cool-restaurant-management-system.bundle.scp.css</PackagePath>
-      <Modified>2023-08-01T04:52:46.311</Modified>
+      <Modified>2023-08-01T16:02:43.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\app-database.db">
+      <PackagePath>wwwroot\app-database.db</PackagePath>
+      <Modified>2023-08-01T13:58:31.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\app-database.db-journal">
+      <PackagePath>wwwroot\app-database.db-journal</PackagePath>
+      <Modified>2023-08-01T13:58:44.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\app-database.sqbpro">
+      <PackagePath>wwwroot\app-database.sqbpro</PackagePath>
+      <Modified>2023-08-01T06:10:00.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2023-07-31T15:52:33.322</Modified>
+      <Modified>2023-08-01T16:01:37.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
@@ -1188,10 +1200,6 @@
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
       <Modified>2023-07-27T04:54:57.007</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\open-iconic\FONT-LICENSE">
-      <PackagePath>wwwroot\css\open-iconic\FONT-LICENSE</PackagePath>
-      <Modified>2023-07-27T04:54:57.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css">
       <PackagePath>wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css</PackagePath>
@@ -1217,6 +1225,10 @@
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.woff</PackagePath>
       <Modified>2023-07-27T04:54:57.017</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\open-iconic\FONT-LICENSE">
+      <PackagePath>wwwroot\css\open-iconic\FONT-LICENSE</PackagePath>
+      <Modified>2023-07-27T04:54:57.008</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\open-iconic\ICON-LICENSE">
       <PackagePath>wwwroot\css\open-iconic\ICON-LICENSE</PackagePath>
       <Modified>2023-07-27T04:54:57.009</Modified>
@@ -1228,6 +1240,18 @@
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\favicon.ico">
       <PackagePath>wwwroot\favicon.ico</PackagePath>
       <Modified>2023-07-27T04:54:57.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\images\orders_page.jpg">
+      <PackagePath>wwwroot\images\orders_page.jpg</PackagePath>
+      <Modified>2023-08-01T15:45:39.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\images\payment_page.jpg">
+      <PackagePath>wwwroot\images\payment_page.jpg</PackagePath>
+      <Modified>2023-08-01T15:57:58.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\images\reserved_table_unsplash.jpg">
+      <PackagePath>wwwroot\images\reserved_table_unsplash.jpg</PackagePath>
+      <Modified>2023-08-01T13:10:03.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\images\restaurant_unsplash.jpg">
       <PackagePath>wwwroot\images\restaurant_unsplash.jpg</PackagePath>
@@ -1256,6 +1280,78 @@
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-08-01T04:53:44.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Black.ttf">
+      <PackagePath>Montserrat-Black.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-BlackItalic.ttf">
+      <PackagePath>Montserrat-BlackItalic.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Bold.ttf">
+      <PackagePath>Montserrat-Bold.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-BoldItalic.ttf">
+      <PackagePath>Montserrat-BoldItalic.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-ExtraBold.ttf">
+      <PackagePath>Montserrat-ExtraBold.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-ExtraBoldItalic.ttf">
+      <PackagePath>Montserrat-ExtraBoldItalic.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-ExtraLight.ttf">
+      <PackagePath>Montserrat-ExtraLight.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-ExtraLightItalic.ttf">
+      <PackagePath>Montserrat-ExtraLightItalic.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Italic.ttf">
+      <PackagePath>Montserrat-Italic.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Light.ttf">
+      <PackagePath>Montserrat-Light.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-LightItalic.ttf">
+      <PackagePath>Montserrat-LightItalic.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Medium.ttf">
+      <PackagePath>Montserrat-Medium.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-MediumItalic.ttf">
+      <PackagePath>Montserrat-MediumItalic.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Regular.ttf">
+      <PackagePath>Montserrat-Regular.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-SemiBold.ttf">
+      <PackagePath>Montserrat-SemiBold.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-SemiBoldItalic.ttf">
+      <PackagePath>Montserrat-SemiBoldItalic.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Thin.ttf">
+      <PackagePath>Montserrat-Thin.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-ThinItalic.ttf">
+      <PackagePath>Montserrat-ThinItalic.ttf</PackagePath>
+      <Modified>2022-09-22T05:27:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1473,9 +1569,17 @@
       <PackagePath>Pages\Index.razor.css</PackagePath>
       <Modified>2023-07-31T18:44:32.704</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Orders.razor.css">
+      <PackagePath>Pages\Orders.razor.css</PackagePath>
+      <Modified>2023-08-01T16:01:39.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Payment.razor.css">
+      <PackagePath>Pages\Payment.razor.css</PackagePath>
+      <Modified>2023-08-01T16:02:30.852</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\Pages\ReservationsAndTables.razor.css">
       <PackagePath>Pages\ReservationsAndTables.razor.css</PackagePath>
-      <Modified>2023-07-31T15:39:17.027</Modified>
+      <Modified>2023-08-01T15:31:16.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
@@ -1493,7 +1597,8 @@
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.1, MinVersion = 1005.616.1651.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Users\diogo\.nuget\packages\microsoft.windowsappsdk\1.1.5\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.1.msix</AppxLocation>
-      <MoreInfo></MoreInfo>
+      <MoreInfo>
+      </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\diogo\.nuget\packages\microsoft.windowsappsdk\1.1.5\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.1.msix">
       <Name>Microsoft.WindowsAppRuntime.1.1</Name>
@@ -1501,7 +1606,8 @@
       <Architecture>win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.1, MinVersion = 1005.616.1651.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Users\diogo\.nuget\packages\microsoft.windowsappsdk\1.1.5\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.1.msix</AppxLocation>
-      <MoreInfo></MoreInfo>
+      <MoreInfo>
+      </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\diogo\.nuget\packages\microsoft.windowsappsdk\1.1.5\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.1.msix">
       <Name>Microsoft.WindowsAppRuntime.1.1</Name>
@@ -1509,7 +1615,8 @@
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.1, MinVersion = 1005.616.1651.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Users\diogo\.nuget\packages\microsoft.windowsappsdk\1.1.5\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.1.msix</AppxLocation>
-      <MoreInfo></MoreInfo>
+      <MoreInfo>
+      </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Users\diogo\.nuget\packages\microsoft.windowsappsdk\1.1.5\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.1.msix">
       <Name>Microsoft.WindowsAppRuntime.1.1</Name>
@@ -1517,7 +1624,8 @@
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.1, MinVersion = 1005.616.1651.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Users\diogo\.nuget\packages\microsoft.windowsappsdk\1.1.5\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.1.msix</AppxLocation>
-      <MoreInfo></MoreInfo>
+      <MoreInfo>
+      </MoreInfo>
     </ResolvedSDKReference>
   </ItemGroup>
 </Project>

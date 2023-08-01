@@ -27,10 +27,10 @@
             </BlazorWebView.RootComponents>
         </BlazorWebView>
     </ContentPage>
-    <ContentPage Title="Bills">
+    <ContentPage Title="Payment">
         <BlazorWebView HostPage="wwwroot/index.html">
             <BlazorWebView.RootComponents>
-                <RootComponent Selector="#app" ComponentType="{x:Type pages:Bills}"/>
+                <RootComponent Selector="#app" ComponentType="{x:Type pages:Payment}"/>
             </BlazorWebView.RootComponents>
         </BlazorWebView>
     </ContentPage>

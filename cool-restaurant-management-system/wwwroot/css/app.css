@@ -1,7 +1,7 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: montserrat, 'Agency FB';
 }
 
 h1:focus {
@@ -67,6 +67,22 @@ a, .btn-link {
     display: none;
 }
 
+footer {
+    color: white;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    text-align: end;
+    align-content: center;
+    height: 5vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
 @supports (-webkit-touch-callout: none) {
     .status-bar-safe-area {
         display: flex;
@@ -83,3 +99,7 @@ a, .btn-link {
 	}
 }
 
+@font-face {
+    font-family: 'montserrat'; 
+    src: url('Fonts/Montserrat-Regular.ttf'); 
+}
