@@ -1,0 +1,11 @@
+.page-background[b-5w90zd6w32] {
+    background-image: url('images/payment_page.jpg');
+    height: 89vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1[b-5w90zd6w32] {
+    color:white;
+}

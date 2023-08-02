@@ -19,16 +19,48 @@
             <ModalBody>
                 <Field>
                     <FieldLabel>Name</FieldLabel>
-                    <TextEdit Placeholder="Enter name..." />
+                    <TextEdit Placeholder="Guest Name" />
                 </Field>
                 <Field>
-                    <FieldLabel>Surname</FieldLabel>
-                    <TextEdit Placeholder="Enter surname..." />
+                    <FieldLabel>Phone</FieldLabel>
+                    <TextEdit Placeholder="Phone Number" />
                 </Field>
+                <Div Style="display:flex; justify-content:space-between">
+                    <Field>
+                        <FieldLabel>Reservation Date</FieldLabel>
+                        <DateEdit TValue="DateTime?" />
+                    </Field>
+                    <Field>
+                        <FieldLabel>Reservation Time</FieldLabel>
+                        <TimeEdit TValue="TimeSpan?" />
+                    </Field>
+                    <div style="display:flex; flex-direction:column">
+                        <FieldLabel>Number of people</FieldLabel>
+                        <Select TValue="int">
+                            <!-- Sorry for the redudancy I tried to make it with a for loop but 
+                            it only shows the same number and I don't want to debug it -->
+                            <SelectItem>1</SelectItem>
+                            <SelectItem>2</SelectItem>
+                            <SelectItem>3</SelectItem>
+                            <SelectItem>4</SelectItem>
+                            <SelectItem>5</SelectItem>
+                            <SelectItem>6</SelectItem>
+                            <SelectItem>7</SelectItem>
+                            <SelectItem>8</SelectItem>
+                        </Select>
+                    </div>
+                </Div>
+                <Field>
+                    <FieldLabel>Available Tables</FieldLabel>
+                    <Select TValue="Table">
+
+                    </Select>
+                </Field>
+ 
             </ModalBody>
             <ModalFooter>
-                <Button Clicked="@HideNewReservationModal">Close</Button>
-                <Button Clicked="@HideNewReservationModal">Save Changes</Button>
+                <Button Color="Color.Light" Clicked="@HideNewReservationModal">Close</Button>
+                <Button Color="Color.Dark"Clicked="@HideNewReservationModal">Reserve</Button>
             </ModalFooter>
         </ModalContent>
     </Modal>
@@ -37,22 +69,57 @@
     <Modal @ref="existingReservation">
         <ModalContent Centered>
             <ModalHeader>
-                <ModalTitle>Existing Reservation</ModalTitle>
+                <ModalTitle>Delete Reservation</ModalTitle>
                 <CloseButton />
             </ModalHeader>
             <ModalBody>
                 <Field>
-                    <FieldLabel>Name</FieldLabel>
-                    <TextEdit Placeholder="Enter name..." />
+                    <FieldLabel>Search by:</FieldLabel>
+                    <TextEdit Placeholder="Phone Number" />
                 </Field>
                 <Field>
-                    <FieldLabel>Surname</FieldLabel>
-                    <TextEdit Placeholder="Enter surname..." />
+                    <TextEdit Placeholder="Guest Name" />
                 </Field>
+                <!-- Reservation Found Alert-->
+                <Alert Color="Color.Success" Visible="true">
+                    <AlertMessage>Reservation Found!</AlertMessage>
+                    <AlertDescription>Please check the reservation details below.</AlertDescription>
+                </Alert>
+                <!-- Reservation Not Found Alert-->
+                <Alert Color="Color.Danger" Visible="false">
+                    <AlertMessage>No Reservations Found!</AlertMessage>
+                    <AlertDescription>Plase check the search criteria.</AlertDescription>
+                </Alert>
+                <Button Style="width:100%; margin-top:2vh;" Color="Color.Dark" Outline Clicked="@HideExistingReservationModal">Search</Button>
+                <Div Style="display:flex; justify-content:space-between; margin-top:2vh;">
+                    <Field>
+                        <FieldLabel>Reservation Date</FieldLabel>
+                        <DateEdit Disabled TValue="DateTime?" />
+                    </Field>
+                    <Field>
+                        <FieldLabel>Reservation Time</FieldLabel>
+                        <TimeEdit Disabled TValue="TimeSpan?" />
+                    </Field>
+                    <div style="display:flex; flex-direction:column;">
+                        <FieldLabel>Number of people</FieldLabel>
+                        <Select Disabled TValue="int">
+                            <!-- Sorry for the redudancy I tried to make it with a for loop but
+                            it only shows the same number and I don't want to debug it -->
+                            <SelectItem>1</SelectItem>
+                            <SelectItem>2</SelectItem>
+                            <SelectItem>3</SelectItem>
+                            <SelectItem>4</SelectItem>
+                            <SelectItem>5</SelectItem>
+                            <SelectItem>6</SelectItem>
+                            <SelectItem>7</SelectItem>
+                            <SelectItem>8</SelectItem>
+                        </Select>
+                    </div>
+                </Div>
             </ModalBody>
             <ModalFooter>
-                <Button Clicked="@HideExistingReservationModal">Close</Button>
-                <Button Clicked="@HideExistingReservationModal">Save Changes</Button>
+                <Button Clicked="@HideExistingReservationModal">Cancel</Button>
+                <Button Color="Color.Danger" Clicked="@HideExistingReservationModal">Delete Reservation</Button>
             </ModalFooter>
         </ModalContent>
     </Modal>
@@ -67,16 +134,36 @@
             <ModalBody>
                 <Field>
                     <FieldLabel>Name</FieldLabel>
-                    <TextEdit Placeholder="Enter name..." />
+                    <TextEdit Placeholder="Guest's name" />
                 </Field>
                 <Field>
-                    <FieldLabel>Surname</FieldLabel>
-                    <TextEdit Placeholder="Enter surname..." />
+                    <FieldLabel>Phone</FieldLabel>
+                    <TextEdit Placeholder="Phone number" />
+                </Field>
+                <Field>
+                    <FieldLabel>Number of people</FieldLabel>
+                    <Select TValue="int">
+                        <!-- Sorry for the redudancy I tried to make it with a for loop but
+                        it only shows the same number and I don't want to debug it -->
+                        <SelectItem>1</SelectItem>
+                        <SelectItem>2</SelectItem>
+                        <SelectItem>3</SelectItem>
+                        <SelectItem>4</SelectItem>
+                        <SelectItem>5</SelectItem>
+                        <SelectItem>6</SelectItem>
+                        <SelectItem>7</SelectItem>
+                        <SelectItem>8</SelectItem>
+                    </Select>
+                </Field>
+                <Field>
+                    <FieldLabel>Available Tables</FieldLabel>
+                    <Select TValue="Table">
+                    </Select>
                 </Field>
             </ModalBody>
             <ModalFooter>
                 <Button Clicked="@HideSitGuestModal">Close</Button>
-                <Button Clicked="@HideSitGuestModal">Save Changes</Button>
+                <Button Color="Color.Dark" Clicked="@HideSitGuestModal">Sit Guests</Button>
             </ModalFooter>
         </ModalContent>
     </Modal>
@@ -120,5 +207,10 @@
     private Task HideSitGuestModal()
     {
         return sitGuest.Hide();
+    }
+
+    private void SearchReservation()
+    {
+        throw new NotImplementedException();
     }
 }

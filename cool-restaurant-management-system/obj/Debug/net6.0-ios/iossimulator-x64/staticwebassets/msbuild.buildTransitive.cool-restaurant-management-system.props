@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\cool-restaurant-management-system.props" />
-</Project>

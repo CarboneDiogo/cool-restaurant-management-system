@@ -55,6 +55,10 @@ h1[b-5w90zd6w32] {
     color:white;
 }
 /* /Pages/ReservationsAndTables.razor.rz.scp.css */
+body[b-3a31ftch47] {
+    font-family: 'Agency FB'
+}
+
 .page-background[b-3a31ftch47] {
     background-image: url('images/reserved_table_unsplash.jpg');
     height: 95vh;
@@ -82,7 +86,10 @@ h1[b-5w90zd6w32] {
     gap: 10vh;
 }
 
-
+.dateTimeContainer[b-3a31ftch47] {
+    display: flex;
+    background-color: pink;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-43olgpsg9t] {
     position: relative;

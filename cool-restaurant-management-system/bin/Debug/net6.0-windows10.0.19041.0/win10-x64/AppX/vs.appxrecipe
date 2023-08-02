@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-08-01T19:10:38.888</Modified>
+      <Modified>2023-08-02T05:49:32.925</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-08-01T18:20:50.344</Modified>
+      <Modified>2023-08-02T04:31:17.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.runtimeconfig.json">
       <PackagePath>cool-restaurant-management-system.runtimeconfig.json</PackagePath>
-      <Modified>2023-08-01T19:10:38.194</Modified>
+      <Modified>2023-08-02T04:47:54.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.dll">
       <PackagePath>cool-restaurant-management-system.dll</PackagePath>
-      <Modified>2023-08-01T19:10:37.154</Modified>
+      <Modified>2023-08-02T05:49:31.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>cool-restaurant-management-system.exe</PackagePath>
-      <Modified>2023-08-01T19:10:37.164</Modified>
+      <Modified>2023-08-02T05:49:31.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.16\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1199,7 +1199,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.deps.json">
       <PackagePath>cool-restaurant-management-system.deps.json</PackagePath>
-      <Modified>2023-08-01T19:10:38.573</Modified>
+      <Modified>2023-08-02T05:49:32.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1219,11 +1219,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\cool-restaurant-management-system.styles.css">
       <PackagePath>wwwroot\cool-restaurant-management-system.styles.css</PackagePath>
-      <Modified>2023-08-01T19:10:11.162</Modified>
+      <Modified>2023-08-02T04:44:46.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\cool-restaurant-management-system.bundle.scp.css">
       <PackagePath>wwwroot\cool-restaurant-management-system.bundle.scp.css</PackagePath>
-      <Modified>2023-08-01T19:10:11.165</Modified>
+      <Modified>2023-08-02T04:44:46.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\app-database.db">
       <PackagePath>wwwroot\app-database.db</PackagePath>
@@ -1239,7 +1239,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2023-08-01T19:02:34.415</Modified>
+      <Modified>2023-08-01T19:15:56.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
@@ -1771,23 +1771,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.393</Modified>
+      <Modified>2023-08-02T04:24:31.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.414</Modified>
+      <Modified>2023-08-02T04:24:31.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.440</Modified>
+      <Modified>2023-08-02T04:24:31.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.479</Modified>
+      <Modified>2023-08-02T04:24:31.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.633</Modified>
+      <Modified>2023-08-02T04:24:31.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Black.ttf">
       <PackagePath>Montserrat-Black.ttf</PackagePath>
@@ -1867,207 +1867,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-08-01T04:53:44.684</Modified>
+      <Modified>2023-08-02T04:24:32.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-08-01T04:53:45.067</Modified>
+      <Modified>2023-08-02T04:24:32.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-08-01T04:53:45.088</Modified>
+      <Modified>2023-08-02T04:24:32.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-08-01T04:53:45.106</Modified>
+      <Modified>2023-08-02T04:24:32.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-08-01T04:53:45.130</Modified>
+      <Modified>2023-08-02T04:24:32.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-08-01T04:53:45.217</Modified>
+      <Modified>2023-08-02T04:24:32.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.799</Modified>
+      <Modified>2023-08-02T04:24:32.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.803</Modified>
+      <Modified>2023-08-02T04:24:32.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.820</Modified>
+      <Modified>2023-08-02T04:24:32.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.807</Modified>
+      <Modified>2023-08-02T04:24:32.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.811</Modified>
+      <Modified>2023-08-02T04:24:32.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.773</Modified>
+      <Modified>2023-08-02T04:24:32.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.778</Modified>
+      <Modified>2023-08-02T04:24:32.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.795</Modified>
+      <Modified>2023-08-02T04:24:32.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.782</Modified>
+      <Modified>2023-08-02T04:24:32.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.785</Modified>
+      <Modified>2023-08-02T04:24:32.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.704</Modified>
+      <Modified>2023-08-02T04:24:32.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.708</Modified>
+      <Modified>2023-08-02T04:24:32.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.713</Modified>
+      <Modified>2023-08-02T04:24:32.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.723</Modified>
+      <Modified>2023-08-02T04:24:32.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.731</Modified>
+      <Modified>2023-08-02T04:24:32.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.736</Modified>
+      <Modified>2023-08-02T04:24:32.145</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.742</Modified>
+      <Modified>2023-08-02T04:24:32.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.768</Modified>
+      <Modified>2023-08-02T04:24:32.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.751</Modified>
+      <Modified>2023-08-02T04:24:32.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.755</Modified>
+      <Modified>2023-08-02T04:24:32.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.907</Modified>
+      <Modified>2023-08-02T04:24:32.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.914</Modified>
+      <Modified>2023-08-02T04:24:32.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.924</Modified>
+      <Modified>2023-08-02T04:24:32.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.936</Modified>
+      <Modified>2023-08-02T04:24:32.413</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.962</Modified>
+      <Modified>2023-08-02T04:24:32.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.858</Modified>
+      <Modified>2023-08-02T04:24:32.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.867</Modified>
+      <Modified>2023-08-02T04:24:32.336</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.873</Modified>
+      <Modified>2023-08-02T04:24:32.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.881</Modified>
+      <Modified>2023-08-02T04:24:32.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.896</Modified>
+      <Modified>2023-08-02T04:24:32.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.824</Modified>
+      <Modified>2023-08-02T04:24:32.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.830</Modified>
+      <Modified>2023-08-02T04:24:32.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.835</Modified>
+      <Modified>2023-08-02T04:24:32.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.841</Modified>
+      <Modified>2023-08-02T04:24:32.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.853</Modified>
+      <Modified>2023-08-02T04:24:32.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.970</Modified>
+      <Modified>2023-08-02T04:24:32.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.984</Modified>
+      <Modified>2023-08-02T04:24:32.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.997</Modified>
+      <Modified>2023-08-02T04:24:32.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-08-01T04:53:45.013</Modified>
+      <Modified>2023-08-02T04:24:32.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-08-01T04:53:45.055</Modified>
+      <Modified>2023-08-02T04:24:32.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.694</Modified>
+      <Modified>2023-08-02T04:24:32.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.712</Modified>
+      <Modified>2023-08-02T04:24:32.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.732</Modified>
+      <Modified>2023-08-02T04:24:32.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.764</Modified>
+      <Modified>2023-08-02T04:24:32.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-08-01T04:53:44.824</Modified>
+      <Modified>2023-08-02T04:24:32.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\restaurant_unsplash.scale-100.jpg">
       <PackagePath>restaurant_unsplash.scale-100.jpg</PackagePath>
@@ -2087,7 +2087,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\Pages\ReservationsAndTables.razor.css">
       <PackagePath>Pages\ReservationsAndTables.razor.css</PackagePath>
-      <Modified>2023-08-01T19:10:10.312</Modified>
+      <Modified>2023-08-02T04:44:45.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>

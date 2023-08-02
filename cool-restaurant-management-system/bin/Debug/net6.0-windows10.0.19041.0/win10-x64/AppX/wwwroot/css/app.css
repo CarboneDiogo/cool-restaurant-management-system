@@ -99,19 +99,20 @@ header {
 
 .customButton {
     width: 30vh;
-    background-color: black !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
     color: white !important;
     padding: 25px;
-    height: 15vh;
-    font-size: 20px;
+    height: 20vh;
+    width: 35vh;
+    font-size: 20px !important;
     font-weight: bold;
 }
 
     .customButton:hover {
-        background-color: white !important;
+        background-color: rgba(255,255,255, 0.8) !important;
         color: black !important;
         font-weight: bolder;
-        font-size: 16px !important;
+        font-size: 22px !important;
         transition: ease-in-out 0.7s all;
     }
 
