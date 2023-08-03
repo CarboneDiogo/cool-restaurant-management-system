@@ -46998,6 +46998,7 @@
       "Microsoft.Maui.Extensions >= 6.0.552",
       "MudBlazor >= 6.7.0",
       "SQLitePCLRaw.bundle_green >= 2.1.5",
+      "SQLitePCLRaw.core >= 2.1.5",
       "sqlite-net-pcl >= 1.8.116"
     ],
     "net6.0-ios16.1": [
@@ -47009,6 +47010,7 @@
       "Microsoft.Maui.Extensions >= 6.0.552",
       "MudBlazor >= 6.7.0",
       "SQLitePCLRaw.bundle_green >= 2.1.5",
+      "SQLitePCLRaw.core >= 2.1.5",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1",
       "sqlite-net-pcl >= 1.8.116"
     ],
@@ -47021,6 +47023,7 @@
       "Microsoft.Maui.Extensions >= 6.0.552",
       "MudBlazor >= 6.7.0",
       "SQLitePCLRaw.bundle_green >= 2.1.5",
+      "SQLitePCLRaw.core >= 2.1.5",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1",
       "sqlite-net-pcl >= 1.8.116"
     ],
@@ -47034,6 +47037,7 @@
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194",
       "MudBlazor >= 6.7.0",
       "SQLitePCLRaw.bundle_green >= 2.1.5",
+      "SQLitePCLRaw.core >= 2.1.5",
       "sqlite-net-pcl >= 1.8.116"
     ]
   },
@@ -47132,6 +47136,10 @@
             "version": "[6.7.0, )"
           },
           "SQLitePCLRaw.bundle_green": {
+            "target": "Package",
+            "version": "[2.1.5, )"
+          },
+          "SQLitePCLRaw.core": {
             "target": "Package",
             "version": "[2.1.5, )"
           },
@@ -47268,6 +47276,10 @@
             "target": "Package",
             "version": "[2.1.5, )"
           },
+          "SQLitePCLRaw.core": {
+            "target": "Package",
+            "version": "[2.1.5, )"
+          },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
             "version": "[6.0.1, )",
@@ -47379,6 +47391,10 @@
             "version": "[6.7.0, )"
           },
           "SQLitePCLRaw.bundle_green": {
+            "target": "Package",
+            "version": "[2.1.5, )"
+          },
+          "SQLitePCLRaw.core": {
             "target": "Package",
             "version": "[2.1.5, )"
           },
@@ -47500,6 +47516,10 @@
             "version": "[6.7.0, )"
           },
           "SQLitePCLRaw.bundle_green": {
+            "target": "Package",
+            "version": "[2.1.5, )"
+          },
+          "SQLitePCLRaw.core": {
             "target": "Package",
             "version": "[2.1.5, )"
           },

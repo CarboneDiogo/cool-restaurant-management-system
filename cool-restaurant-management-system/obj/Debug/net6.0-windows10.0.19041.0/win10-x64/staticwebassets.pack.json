@@ -5,18 +5,6 @@
       "PackagePath": "staticwebassets\\cool-restaurant-management-system.styles.css"
     },
     {
-      "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\app-database.db",
-      "PackagePath": "staticwebassets\\app-database.db"
-    },
-    {
-      "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\app-database.db-journal",
-      "PackagePath": "staticwebassets\\app-database.db-journal"
-    },
-    {
-      "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\app-database.sqbpro",
-      "PackagePath": "staticwebassets\\app-database.sqbpro"
-    },
-    {
       "Id": "C:\\cprg211\\cool-restaurant-management-system\\cool-restaurant-management-system\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

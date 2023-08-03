@@ -59,7 +59,7 @@
  
             </ModalBody>
             <ModalFooter>
-                <Button Color="Color.Light" Clicked="@HideNewReservationModal">Close</Button>
+                <Button Color="Color.Light" Clicked="@HideNewReservationModal">Cancel</Button>
                 <Button Color="Color.Dark"Clicked="@HideNewReservationModal">Reserve</Button>
             </ModalFooter>
         </ModalContent>
@@ -158,11 +158,12 @@
                 <Field>
                     <FieldLabel>Available Tables</FieldLabel>
                     <Select TValue="Table">
+                        
                     </Select>
                 </Field>
             </ModalBody>
             <ModalFooter>
-                <Button Clicked="@HideSitGuestModal">Close</Button>
+                <Button Clicked="@HideSitGuestModal">Cancel</Button>
                 <Button Color="Color.Dark" Clicked="@HideSitGuestModal">Sit Guests</Button>
             </ModalFooter>
         </ModalContent>
@@ -179,6 +180,8 @@
     private Modal newReservation;
     private Modal existingReservation;
     private Modal sitGuest;
+
+    
 
     private Task ShowNewReservationModal()
     {
@@ -213,4 +216,5 @@
     {
         throw new NotImplementedException();
     }
+   
 }

@@ -98,6 +98,10 @@
               "target": "Package",
               "version": "[2.1.5, )"
             },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.8.116, )"
@@ -231,6 +235,10 @@
               "target": "Package",
               "version": "[2.1.5, )"
             },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
               "version": "[6.0.1, )",
@@ -342,6 +350,10 @@
               "version": "[6.7.0, )"
             },
             "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "SQLitePCLRaw.core": {
               "target": "Package",
               "version": "[2.1.5, )"
             },
@@ -463,6 +475,10 @@
               "version": "[6.7.0, )"
             },
             "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "SQLitePCLRaw.core": {
               "target": "Package",
               "version": "[2.1.5, )"
             },
