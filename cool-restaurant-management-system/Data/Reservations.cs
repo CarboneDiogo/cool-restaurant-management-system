@@ -2,13 +2,10 @@
 using SQLite;
 public class Reservations
 {
-    [PrimaryKey, AutoIncrement]
     public int Id {get;set;}
     public DateTime DateAndTime { get; set; }
 
-    // Customer dbTable Foreign Key
-    public int CustomerId { get; set; }
-    // Table dbTable Foreign Key
+    public int CustomerPhone { get; set; }
     public int TableId { get; set; }
 
 }

@@ -8,6 +8,21 @@
         <Button class="customButton" Clicked="@ShowSitGuestModal">Sit Guests</Button>
     </div>
 
+    <Div Class="flex-container" Style= "background-color: rgba(255, 255, 255, 0.6)">
+        <h2>Upcoming Reservations</h2>
+        <Div >
+            <Card>
+                <CardBody>
+                    <CardTitle Size="3">
+                        Harry Potter
+                    </CardTitle>
+                    <CardText>
+                        Party size: 3 at 6:30PM
+                    </CardText>
+                </CardBody>
+            </Card>
+        </Div>
+    </Div>
 
     <!-- New Reservation Modal -->
     <Modal @ref="newReservation" Animated="true">
@@ -180,8 +195,8 @@
     private Modal newReservation;
     private Modal existingReservation;
     private Modal sitGuest;
-
     
+
 
     private Task ShowNewReservationModal()
     {
