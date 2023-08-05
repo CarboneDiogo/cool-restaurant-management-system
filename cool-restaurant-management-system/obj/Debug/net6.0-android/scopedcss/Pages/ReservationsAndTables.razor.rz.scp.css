@@ -1,3 +1,7 @@
+body[b-3a31ftch47] {
+    font-family: 'Agency FB'
+}
+
 .page-background[b-3a31ftch47] {
     background-image: url('images/reserved_table_unsplash.jpg');
     height: 95vh;
@@ -25,4 +29,7 @@
     gap: 10vh;
 }
 
-
+.dateTimeContainer[b-3a31ftch47] {
+    display: flex;
+    background-color: pink;
+}
