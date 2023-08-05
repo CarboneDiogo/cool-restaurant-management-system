@@ -1,4 +1,7 @@
 ﻿@page "/reservationAndTables"
+@using cool_restaurant_management_system.Data
+@using Microsoft.Data.SqlClient
+
 
 <div class="page-background">
 
@@ -36,17 +39,13 @@
                     </Field>
                     <div style="display:flex; flex-direction:column">
                         <FieldLabel>Number of people</FieldLabel>
-                        <Select TValue="int">
-                            <!-- Sorry for the redudancy I tried to make it with a for loop but 
-                            it only shows the same number and I don't want to debug it -->
-                            <SelectItem>1</SelectItem>
-                            <SelectItem>2</SelectItem>
-                            <SelectItem>3</SelectItem>
-                            <SelectItem>4</SelectItem>
-                            <SelectItem>5</SelectItem>
-                            <SelectItem>6</SelectItem>
-                            <SelectItem>7</SelectItem>
-                            <SelectItem>8</SelectItem>
+                        <Select TValue="int" SelectedValue=1>
+                            <!-- Fixed -->
+                            @for (int i = 1; i < 9; i++)
+                            {
+                                int itemNumber = i;
+                                <SelectItem Value="@itemNumber">@itemNumber</SelectItem>
+                            }
                         </Select>
                     </div>
                 </Div>
@@ -102,17 +101,13 @@
                     </Field>
                     <div style="display:flex; flex-direction:column;">
                         <FieldLabel>Number of people</FieldLabel>
-                        <Select Disabled TValue="int">
-                            <!-- Sorry for the redudancy I tried to make it with a for loop but
-                            it only shows the same number and I don't want to debug it -->
-                            <SelectItem>1</SelectItem>
-                            <SelectItem>2</SelectItem>
-                            <SelectItem>3</SelectItem>
-                            <SelectItem>4</SelectItem>
-                            <SelectItem>5</SelectItem>
-                            <SelectItem>6</SelectItem>
-                            <SelectItem>7</SelectItem>
-                            <SelectItem>8</SelectItem>
+                        <Select Disabled TValue="int" SelectedValue=1>
+                            <!-- Fixed -->
+                            @for (int i = 1; i < 9; i++)
+                            {
+                                int itemNumber = i;
+                                <SelectItem Value="@itemNumber">@itemNumber</SelectItem>
+                            }
                         </Select>
                     </div>
                 </Div>
@@ -133,26 +128,22 @@
             </ModalHeader>
             <ModalBody>
                 <Field>
-                    <FieldLabel>Name</FieldLabel>
-                    <TextEdit Placeholder="Guest's name" />
+                    <FieldLabel>Name</FieldLabel>   
+                    <TextEdit Placeholder="Guest Name" @bind-Text="@name" />
                 </Field>
                 <Field>
                     <FieldLabel>Phone</FieldLabel>
-                    <TextEdit Placeholder="Phone number" />
-                </Field>
+                    <TextEdit Placeholder="Phone Number" @bind-Text="@phone" />
+                </Field>                           
                 <Field>
                     <FieldLabel>Number of people</FieldLabel>
-                    <Select TValue="int">
-                        <!-- Sorry for the redudancy I tried to make it with a for loop but
-                        it only shows the same number and I don't want to debug it -->
-                        <SelectItem>1</SelectItem>
-                        <SelectItem>2</SelectItem>
-                        <SelectItem>3</SelectItem>
-                        <SelectItem>4</SelectItem>
-                        <SelectItem>5</SelectItem>
-                        <SelectItem>6</SelectItem>
-                        <SelectItem>7</SelectItem>
-                        <SelectItem>8</SelectItem>
+                    <Select TValue="int" SelectedValue=1>
+                        <!-- Fixed -->
+                        @for (int i = 1; i < 9; i++)
+                        {
+                            int itemNumber = i;
+                            <SelectItem Value="@itemNumber">@itemNumber</SelectItem>
+                        }
                     </Select>
                 </Field>
                 <Field>
@@ -164,7 +155,7 @@
             </ModalBody>
             <ModalFooter>
                 <Button Clicked="@HideSitGuestModal">Cancel</Button>
-                <Button Color="Color.Dark" Clicked="@HideSitGuestModal">Sit Guests</Button>
+                <Button Color="Color.Dark" Clicked="AddNewGuest">Sit Guests</Button> 
             </ModalFooter>
         </ModalContent>
     </Modal>
@@ -181,7 +172,37 @@
     private Modal existingReservation;
     private Modal sitGuest;
 
-    
+    string name;
+    string phone;
+
+    private async void AddNewGuest()
+    {
+        Guests newGuest = new Guests();
+        newGuest.Name = name;
+        newGuest.Phone = phone;
+
+        NewGuest(newGuest);
+
+        await Application.Current.MainPage.DisplayAlert("Success", "Guest Successfully added", "OK");
+    }
+
+    public void NewGuest(Guests guest)
+    {
+        string connectguests = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Restaurant;Integrated Security=True";
+
+        SqlConnection connect = new SqlConnection(connectguests);
+        connect.Open();
+
+        SqlCommand cmd = new SqlCommand("INSERT INTO Guests (Name, Phone) VALUES (@Name, @Phone)", connect);
+
+        cmd.Parameters.AddWithValue("@Name", guest.Name);
+        cmd.Parameters.AddWithValue("@Phone", guest.Phone);
+
+        cmd.ExecuteNonQuery();
+
+        connect.Close();
+
+    }
 
     private Task ShowNewReservationModal()
     {

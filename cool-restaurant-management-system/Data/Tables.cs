@@ -1,11 +1,30 @@
-﻿namespace cool_restaurant_management_system.Data;
-using SQLite;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class Tables
+namespace cool_restaurant_management_system.Data
 {
-    [PrimaryKey, AutoIncrement]
-    public int Id { get; set; }
-    public int Capacity { get; set; }
-    public string Location { get; set; }
-    public int CurrentlyAvailable { get; set; }  
+	public class Tables
+	{
+		private int table_Id;
+		private int is_Available;
+		private int capacity;
+
+		public int Table_Id { get => table_Id; set => table_Id = value; }
+		public int Is_Available { get => is_Available; set => is_Available = value; }
+		public int Capacity { get => capacity; set => capacity = value; }
+
+        public Tables()
+        {
+            
+        }
+        public Tables(int table_Id, int is_Available, int capacity)
+		{
+			this.Table_Id = table_Id;
+			this.Is_Available = is_Available;
+			this.Capacity = capacity;
+		}
+	}
 }
