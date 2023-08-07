@@ -1,0 +1,20 @@
+.page-background[b-mk1vgm0c47] {
+    background-image: url('images/reserved_table_unsplash.jpg') !important;
+    height: 89vh !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center;
+}
+
+.flex-container[b-mk1vgm0c47] {
+    display: flex;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-container[b-mk1vgm0c47] {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 80%;
+}

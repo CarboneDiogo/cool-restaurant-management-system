@@ -1,0 +1,54 @@
+﻿@page "/UpcomingReservations"
+@using cool_restaurant_management_system.Data
+
+<header>
+    <h1>Upcoming Reservations</h1>
+</header>
+
+<div class="page-background">
+
+    <div class="flex-container">
+        <div class="table-container">     
+            <Table Hoverable Borderless FixedHeader FixedHeaderTableHeight="80vh">
+                <TableHeader ThemeContrast="ThemeContrast.Dark">
+                    <TableRow>
+                        <TableHeaderCell>#</TableHeaderCell>
+                        <TableHeaderCell>First Name</TableHeaderCell>
+                        <TableHeaderCell>Phone Number</TableHeaderCell>
+                        <TableHeaderCell>Table Status</TableHeaderCell>
+                        <TableHeaderCell>Sit Guests</TableHeaderCell>
+                        <TableHeaderCell>No Show</TableHeaderCell>
+                    </TableRow>
+                </TableHeader>
+                <TableBody>
+                    @for (int i = 1; i <= 10; ++i)
+                    {
+                        var index = i.ToString();
+
+                        <TableRow @key="@index">
+                            <TableRowHeader>@index</TableRowHeader>
+                            <TableRowCell>Column content</TableRowCell>
+                            <TableRowCell>Column content</TableRowCell>
+                            <TableRowCell>Column content</TableRowCell>
+                            <TableRowCell>
+                                <Button Color="Color.Success">✓</Button>
+                                </TableRowCell>
+                            <TableRowCell>
+                                <Button Color="Color.Danger">X</Button>
+                                </TableRowCell>  
+                        </TableRow>
+                    }
+                </TableBody>
+            </Table>
+        </div>
+        </div>
+</div>
+
+<footer>
+    Photo by <a href="https://unsplash.com/@@iamhiteshdewasi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hitesh Dewasi</a> on <a href="https://unsplash.com/photos/5JwBbnyZzfc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</footer>
+
+@code {
+
+
+}

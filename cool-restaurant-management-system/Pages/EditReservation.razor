@@ -1,0 +1,65 @@
+﻿@page "/EditReservation"
+@using cool_restaurant_management_system.Data
+
+
+<header>
+    <h1>Edit Reservation</h1>
+</header>
+
+<div class="page-background">
+    <div class="flex-container">
+        <div class="form-container">
+            <ModalHeader>
+                <ModalTitle>Edit Reservation</ModalTitle>
+            </ModalHeader>
+            <ModalBody>
+                <Field>
+                    <FieldLabel>Full Name</FieldLabel>
+                    <TextEdit Placeholder="Enter name" />
+                </Field>
+                <Field>
+                    <FieldLabel>Phone Number</FieldLabel>
+                    <TextEdit Placeholder="Enter Phone Number +19876543210" />
+                </Field>
+                <Button Color="Color.Dark">Find Reservation</Button>
+                <Field>
+                    <FieldLable>Number of Guests: @numberOfGuests</FieldLable>
+                    <Slider @bind-Value="@numberOfGuests" Min="1" Max="8" />
+                </Field>
+                <div class="flex-container" id="date-time-picker">
+                    <Field>
+                        <FieldLabel>Date</FieldLabel>
+                        <DateEdit TValue="DateTime?" />
+                    </Field>
+                    <Field>
+                        <FieldLabel>Time</FieldLabel>
+                        <TimeEdit TValue="TimeSpan?" @bind-Time="@selectedTime" />
+                    </Field>
+                </div>
+                <Field>
+                    <FieldLabel>Available Tables</FieldLabel>
+                    <Select TValue="int">
+                        <SelectItem Value="1">One</SelectItem>
+                        <SelectItem Value="2">Two</SelectItem>
+                        <SelectItem Value="3">Three</SelectItem>
+                        <SelectItem Value="4">Four</SelectItem>
+                    </Select>
+                </Field>
+            </ModalBody>
+            <ModalFooter>
+                <Button Color="Color.Secondary" >Discard</Button>
+                <Button Color="Color.Danger">Delete Reservation</Button>
+                <Button Color="Color.Success" >Save Changes</Button>
+            </ModalFooter>
+        </div>
+    </div>
+</div>
+
+<footer>
+    Photo by <a href="https://unsplash.com/@@iamhiteshdewasi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hitesh Dewasi</a> on <a href="https://unsplash.com/photos/5JwBbnyZzfc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</footer>
+
+@code {
+    int numberOfGuests = 1;
+    TimeSpan? selectedTime;
+}

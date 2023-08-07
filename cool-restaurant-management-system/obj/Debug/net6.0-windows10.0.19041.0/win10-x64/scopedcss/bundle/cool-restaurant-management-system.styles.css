@@ -1,3 +1,29 @@
+/* /Pages/EditReservation.razor.rz.scp.css */
+.page-background[b-828n0wybbd] {
+    background-image: url('images/reserved_table_unsplash.jpg') !important;
+    height: 89vh !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center;
+}
+
+.form-container[b-828n0wybbd] {
+    width: 75vh;
+    background-color: rgba(255,255,255,0.8);
+    font-weight: bold;
+}
+
+.flex-container[b-828n0wybbd] {
+    display: flex;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#date-time-picker[b-828n0wybbd] {
+    justify-content: space-evenly;
+}
 /* /Pages/Index.razor.rz.scp.css */
 body[b-cb8hvhylfh]{
     margin: 0;
@@ -5,90 +31,58 @@ body[b-cb8hvhylfh]{
 }
 
 .page-background[b-cb8hvhylfh] {
-    background-image: url('/images/restaurant_unsplash.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('images/restaurant_unsplash.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    height: 89vh !important;
+}
+/* /Pages/NewReservation.razor.rz.scp.css */
+.page-background[b-v08ao1fqmi] {
+    background-image: url('images/reserved_table_unsplash.jpg') !important;
+    height: 89vh !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
     background-position: center center;
-    height: 95vh;
 }
 
-h1[b-cb8hvhylfh] {
-    background-color: black;
-    color: snow;
-    margin: 0;
+.form-container[b-v08ao1fqmi] {
+    width: 75vh;
+    background-color: rgba(255,255,255,0.8);
     font-weight: bold;
-    text-align: center;
 }
 
-footer[b-cb8hvhylfh] {
-    color: white;
-    background-color: black;
-    position: absolute;
-    width: 100%;
-    text-align:end;
-    height:5vh;
-}
-/* /Pages/Orders.razor.rz.scp.css */
-.page-background[b-y601hg0fny] {
-    background-image: url('images/orders_page.jpg');
-    height: 89vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-
-h1[b-y601hg0fny] {
-    color: white;
-}
-/* /Pages/Payment.razor.rz.scp.css */
-.page-background[b-5w90zd6w32] {
-    background-image: url('images/payment_page.jpg');
-    height: 89vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-h1[b-5w90zd6w32] {
-    color:white;
-}
-/* /Pages/ReservationsAndTables.razor.rz.scp.css */
-body[b-3a31ftch47] {
-    font-family: 'Agency FB'
-}
-
-.page-background[b-3a31ftch47] {
-    background-image: url('images/reserved_table_unsplash.jpg');
-    height: 95vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.centered-container[b-3a31ftch47] {
+.flex-container[b-v08ao1fqmi] {
     display: flex;
+    height: 100%;
+    justify-items: center;
     align-items: center;
     justify-content: center;
 }
 
-.flex-container[b-3a31ftch47] {
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   height: 85vh;
+#date-time-picker[b-v08ao1fqmi] {
+    justify-content: space-evenly;
+}
+/* /Pages/UpcomingReservations.razor.rz.scp.css */
+.page-background[b-mk1vgm0c47] {
+    background-image: url('images/reserved_table_unsplash.jpg') !important;
+    height: 89vh !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center;
 }
 
-.page-buttons[b-3a31ftch47] {
+.flex-container[b-mk1vgm0c47] {
     display: flex;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
     justify-content: center;
-    gap: 10vh;
 }
 
-.dateTimeContainer[b-3a31ftch47] {
-    display: flex;
-    background-color: pink;
+.table-container[b-mk1vgm0c47] {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 80%;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-43olgpsg9t] {
