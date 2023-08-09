@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace cool_restaurant_management_system.Data
 {
-	public class Tables
+	public class RestaurantTable
 	{
 		private int table_Id;
 		private int is_Available;
@@ -16,11 +16,11 @@ namespace cool_restaurant_management_system.Data
 		public int Is_Available { get => is_Available; set => is_Available = value; }
 		public int Capacity { get => capacity; set => capacity = value; }
 
-        public Tables()
+        public RestaurantTable()
         {
             
         }
-        public Tables(int table_Id, int is_Available, int capacity)
+        public RestaurantTable(int table_Id, int is_Available, int capacity)
 		{
 			this.Table_Id = table_Id;
 			this.Is_Available = is_Available;

@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-08-05T01:27:12.663</Modified>
+      <Modified>2023-08-09T04:19:15.582</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-08-05T01:25:21.128</Modified>
+      <Modified>2023-08-09T04:10:08.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.runtimeconfig.json">
       <PackagePath>cool-restaurant-management-system.runtimeconfig.json</PackagePath>
-      <Modified>2023-08-04T21:40:59.236</Modified>
+      <Modified>2023-08-09T04:10:08.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.dll">
       <PackagePath>cool-restaurant-management-system.dll</PackagePath>
-      <Modified>2023-08-05T01:25:20.484</Modified>
+      <Modified>2023-08-09T04:19:14.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>cool-restaurant-management-system.exe</PackagePath>
-      <Modified>2023-08-05T01:25:20.490</Modified>
+      <Modified>2023-08-09T04:19:14.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AdamM\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.20\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -2392,7 +2392,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.deps.json">
       <PackagePath>cool-restaurant-management-system.deps.json</PackagePath>
-      <Modified>2023-08-05T01:27:12.457</Modified>
+      <Modified>2023-08-09T04:19:15.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AdamM\.nuget\packages\microsoft.maui.controls.ref.win\6.0.553\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -2412,11 +2412,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\cool-restaurant-management-system.styles.css">
       <PackagePath>wwwroot\cool-restaurant-management-system.styles.css</PackagePath>
-      <Modified>2023-08-03T18:45:53.654</Modified>
+      <Modified>2023-08-09T04:05:49.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\cool-restaurant-management-system.bundle.scp.css">
       <PackagePath>wwwroot\cool-restaurant-management-system.bundle.scp.css</PackagePath>
-      <Modified>2023-08-03T18:45:53.656</Modified>
+      <Modified>2023-08-09T04:05:49.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
@@ -3254,21 +3254,21 @@
       <PackagePath>restaurant_unsplash.scale-100.jpg</PackagePath>
       <Modified>2023-08-02T17:48:55.034</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\CheckOut.razor.css">
+      <PackagePath>Pages\CheckOut.razor.css</PackagePath>
+      <Modified>2023-08-09T04:03:37.130</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Index.razor.css">
       <PackagePath>Pages\Index.razor.css</PackagePath>
-      <Modified>2023-08-02T17:48:50.884</Modified>
+      <Modified>2023-08-09T04:03:37.131</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Orders.razor.css">
-      <PackagePath>Pages\Orders.razor.css</PackagePath>
-      <Modified>2023-08-02T17:48:50.884</Modified>
+    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\SeatGuests.razor.css">
+      <PackagePath>Pages\SeatGuests.razor.css</PackagePath>
+      <Modified>2023-08-09T04:03:37.131</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Payment.razor.css">
-      <PackagePath>Pages\Payment.razor.css</PackagePath>
-      <Modified>2023-08-02T17:48:50.885</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\ReservationsAndTables.razor.css">
-      <PackagePath>Pages\ReservationsAndTables.razor.css</PackagePath>
-      <Modified>2023-08-02T17:48:50.886</Modified>
+    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Tables.razor.css">
+      <PackagePath>Pages\Tables.razor.css</PackagePath>
+      <Modified>2023-08-09T04:03:37.132</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
@@ -3276,7 +3276,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Shared\NavMenu.razor.css">
       <PackagePath>Shared\NavMenu.razor.css</PackagePath>
-      <Modified>2023-08-02T17:48:50.919</Modified>
+      <Modified>2023-08-09T04:03:37.175</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

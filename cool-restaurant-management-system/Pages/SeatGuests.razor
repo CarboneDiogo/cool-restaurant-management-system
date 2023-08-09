@@ -1,0 +1,120 @@
+﻿@page "/reservationAndTables"
+@using cool_restaurant_management_system.Data
+@using Microsoft.Data.SqlClient
+
+<div class="page-background">
+    <h1>Seat Guests</h1>
+
+    <div class="flex-container">
+        <input type="text" id="name" class="input-box" placeholder="Please enter a name" @bind="name">
+        <input type="text" id="phone" class="input-box" placeholder="Please enter a phone number" @bind="phone">
+        <select @bind="numberOfGuests">
+            <option value="placeholder" disabled selected>Select number of guests</option>
+            @for (int i = 1; i < 9; i++)
+            {
+                int itemNumber = i;
+                <option value="@itemNumber">@itemNumber</option>
+            }
+        </select>
+
+        <select @bind="table">
+            <option value="placeholder" disabled selected>Select a table</option>
+            @foreach (RestaurantTable table in tablesAvailable)
+            {
+                @if(WillFitGuests(table.Capacity, numberOfGuests))
+                {
+                    <option value="@table.Table_Id">Table @table.Table_Id [Seats @table.Capacity]</option>
+                }
+            }
+        </select>
+        <Button class="customButton" Clicked="@AddNewGuest">Seat Guest</Button>
+    </div>
+
+</div>
+
+
+<footer>
+    Photo by <a href="https://unsplash.com/@@iamhiteshdewasi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hitesh Dewasi</a> on <a href="https://unsplash.com/photos/5JwBbnyZzfc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</footer>
+
+@code {
+    static string connectString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Restaurant;Integrated Security=True";
+
+    string name;
+    string phone;
+    string numberOfGuests;
+    string table;
+    List<RestaurantTable> tablesAvailable = AvailableTables();
+
+    public static List<RestaurantTable> AvailableTables()
+    {
+
+        List<RestaurantTable> tablesTemp = new List<RestaurantTable>();
+        SqlConnection connect = new SqlConnection(connectString);
+        connect.Open();
+
+        SqlCommand command = new SqlCommand("SELECT Table_Id, Is_Available, Capacity FROM TABLES WHERE IS_AVAILABLE != 0", connect);
+
+        using (SqlDataReader reader = command.ExecuteReader())
+        {
+            while (reader.Read())
+            {
+                tablesTemp.Add(new RestaurantTable(Int32.Parse(reader[0].ToString()), Int32.Parse(reader[1].ToString()), Int32.Parse(reader[2].ToString())));
+            }
+        }
+
+        connect.Close();
+
+        return tablesTemp;
+    }
+
+    private async void AddNewGuest()
+    {
+        Guests newGuest = new Guests();
+        newGuest.Name = name;
+        newGuest.Phone = phone;
+        newGuest.Table_Id = Int32.Parse(table);
+        NewGuest(newGuest);
+        OccupyTable();
+        await Application.Current.MainPage.DisplayAlert("Success", "Guest Successfully added", "OK");
+    }
+
+    public void NewGuest(Guests guest)
+    {
+        SqlConnection connect = new SqlConnection(connectString);
+        connect.Open();
+
+        SqlCommand cmd = new SqlCommand("INSERT INTO Guests (Name, Table_Id, Phone) VALUES (@Name, @Table, @Phone)", connect);
+
+        cmd.Parameters.AddWithValue("@Name", guest.Name);
+        cmd.Parameters.AddWithValue("@Phone", guest.Phone);
+        cmd.Parameters.AddWithValue("@Table", guest.Table_Id);
+
+        cmd.ExecuteNonQuery();
+
+        connect.Close();
+    }
+
+    public void OccupyTable()
+    {
+        SqlConnection connect = new SqlConnection(connectString);
+        connect.Open();
+
+        SqlCommand cmd = new SqlCommand($"UPDATE Tables SET Is_Available = 0 WHERE Table_Id = {table}", connect);
+
+        cmd.ExecuteNonQuery();
+        connect.Close();   
+
+        tablesAvailable = AvailableTables();
+        name = "";
+        phone = "";
+        table = "placeholder";
+        numberOfGuests = "placeholder";
+    }
+
+    public bool WillFitGuests(int capacity, string guests)
+    {
+        
+        return guests != null && guests != "placeholder" &&  Int32.Parse(guests) <= capacity;
+    }
+}

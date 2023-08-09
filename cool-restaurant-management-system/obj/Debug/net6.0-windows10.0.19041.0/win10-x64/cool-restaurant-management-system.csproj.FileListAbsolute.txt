@@ -302,9 +302,6 @@ C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\De
 C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\staticwebassets.build.json
 C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\staticwebassets.development.json
 C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\Pages\Index.razor.rz.scp.css
-C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\Pages\Orders.razor.rz.scp.css
-C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\Pages\Payment.razor.rz.scp.css
-C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\Pages\ReservationsAndTables.razor.rz.scp.css
 C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\cool-restaurant-management-system.styles.css
@@ -724,3 +721,6 @@ C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\bin\De
 C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\zh-Hant\UIAutomationTypes.resources.dll
 C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\zh-Hant\WindowsBase.resources.dll
 C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\zh-Hant\WindowsFormsIntegration.resources.dll
+C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\Pages\CheckOut.razor.rz.scp.css
+C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\Pages\SeatGuests.razor.rz.scp.css
+C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\Pages\Tables.razor.rz.scp.css

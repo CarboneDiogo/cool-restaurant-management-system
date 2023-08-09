@@ -1,0 +1,33 @@
+.page-background[b-0s5tpoh9c8] {
+    background-image: url('images/payment_page.jpg');
+    height: 89vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1[b-0s5tpoh9c8] {
+    color:white;
+}
+.table-container[b-0s5tpoh9c8]
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: 500;
+}
+
+.restaurant-table[b-0s5tpoh9c8] {
+    width: 12vw;
+    height: 12vw;
+    background-color: black;
+    margin: 16px;
+    opacity: .8;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}

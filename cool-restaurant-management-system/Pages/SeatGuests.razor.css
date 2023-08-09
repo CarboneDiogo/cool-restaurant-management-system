@@ -1,0 +1,47 @@
+﻿body {
+    font-family: 'Agency FB'
+}
+
+.page-background {
+    background-image: url('images/reserved_table_unsplash.jpg');
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.centered-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 85vh;
+}
+
+.page-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.dateTimeContainer {
+    display: flex;
+    background-color: pink;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    border-bottom: 8px white solid;
+}
+.input-box, select 
+{
+    padding: 8px;
+    min-width: 350px;
+    margin-bottom: 16px;
+}

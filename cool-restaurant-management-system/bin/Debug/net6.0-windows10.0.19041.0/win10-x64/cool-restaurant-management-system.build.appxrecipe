@@ -2440,17 +2440,17 @@
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\restaurant_unsplash.scale-100.jpg">
       <PackagePath>restaurant_unsplash.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\CheckOut.razor.css">
+      <PackagePath>Pages\CheckOut.razor.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Index.razor.css">
       <PackagePath>Pages\Index.razor.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Orders.razor.css">
-      <PackagePath>Pages\Orders.razor.css</PackagePath>
+    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\SeatGuests.razor.css">
+      <PackagePath>Pages\SeatGuests.razor.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Payment.razor.css">
-      <PackagePath>Pages\Payment.razor.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\ReservationsAndTables.razor.css">
-      <PackagePath>Pages\ReservationsAndTables.razor.css</PackagePath>
+    <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Pages\Tables.razor.css">
+      <PackagePath>Pages\Tables.razor.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\C#\cool-restaurant-management-system\cool-restaurant-management-system\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>

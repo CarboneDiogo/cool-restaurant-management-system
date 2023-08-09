@@ -1,0 +1,79 @@
+﻿@page "/Tables"
+@using cool_restaurant_management_system.Data
+@using Microsoft.Data.SqlClient
+
+<header>
+    <h1>Tables</h1>    
+</header>
+
+<div class="page-background">
+    <div class="table-container">
+
+        @foreach (RestaurantTable table in tablesAvailable)
+        {
+            <div class="restaurant-table">
+                <label>Table ID: @table.Table_Id</label>
+                <label>Seats: @table.Capacity</label>
+                <label style="color: @(table.Is_Available == 1 ? "green" : "crimson")">@(table.Is_Available == 1 ? "Available" : "Unavailable")</label>
+                <label>@(table.Is_Available == 0 ? "Guest: " + activeGuests.Find(x => x.Table_Id == table.Table_Id).Name : "")</label>
+            </div>
+        }
+    </div>
+</div>
+
+<footer>
+    Image by <a href="https://www.freepik.com/free-photo/person-paying-with-nfc-technology-restaurant_36017435.htm#query=payment&position=0&from_view=search&track=country_rows_v1">Freepik</a>
+</footer>
+
+@code {
+    static string connectString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Restaurant;Integrated Security=True";
+
+    List<RestaurantTable> tablesAvailable = AvailableTables();
+    List<Guests> activeGuests = ActiveGuests();
+
+    public static List<RestaurantTable> AvailableTables()
+    {
+        List<RestaurantTable> tablesTemp = new List<RestaurantTable>();
+
+        SqlConnection connect = new SqlConnection(connectString);
+        connect.Open();
+
+        SqlCommand command = new SqlCommand("SELECT table_id, Is_Available, capacity FROM TABLES", connect);
+
+        using (SqlDataReader reader = command.ExecuteReader())
+        {
+            while (reader.Read())
+            {
+                    tablesTemp.Add(new RestaurantTable(Int32.Parse(reader[0].ToString()), Int32.Parse(reader[1].ToString()), Int32.Parse(reader[2].ToString())));
+            }
+        }
+        
+        connect.Close();
+
+        return tablesTemp;
+    }
+
+
+    public static List<Guests> ActiveGuests()
+    {
+
+        List<Guests> guestsTemp = new List<Guests>();
+        SqlConnection connect = new SqlConnection(connectString);
+        connect.Open();
+
+        SqlCommand command = new SqlCommand("SELECT Guest_Id, Name, Phone, Table_Id FROM Guests WHERE Table_Id is not null", connect);
+
+        using (SqlDataReader reader = command.ExecuteReader())
+        {
+            while (reader.Read())
+            {
+                guestsTemp.Add(new Guests(Int32.Parse(reader[0].ToString()), reader[1].ToString(), reader[2].ToString(), Int32.Parse(reader[3].ToString())));
+            }
+        }
+
+        connect.Close();
+
+        return guestsTemp;
+    }
+
+}

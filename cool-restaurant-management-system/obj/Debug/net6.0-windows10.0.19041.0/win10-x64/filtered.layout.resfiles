@@ -76,10 +76,10 @@ splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
 wwwroot\cool-restaurant-management-system.styles.css
 wwwroot\cool-restaurant-management-system.bundle.scp.css
+Pages\CheckOut.razor.css
 Pages\Index.razor.css
-Pages\Orders.razor.css
-Pages\Payment.razor.css
-Pages\ReservationsAndTables.razor.css
+Pages\SeatGuests.razor.css
+Pages\Tables.razor.css
 AboutAssets.txt
 Shared\MainLayout.razor.css
 Shared\NavMenu.razor.css

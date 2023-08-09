@@ -13,25 +13,26 @@
             </BlazorWebView.RootComponents>
         </BlazorWebView>
     </ContentPage>
-    <ContentPage Title="Reservation and Tables">
+    <ContentPage Title="Seat Guests">
         <BlazorWebView HostPage="wwwroot/index.html">
             <BlazorWebView.RootComponents>
-                <RootComponent Selector="#app" ComponentType="{x:Type pages:ReservationsAndTables}"/>
+                <RootComponent Selector="#app" ComponentType="{x:Type pages:SeatGuests}"/>
             </BlazorWebView.RootComponents>
         </BlazorWebView>
     </ContentPage>
-    <ContentPage Title="Orders">
+    <ContentPage Title="Check Out Guests">
         <BlazorWebView HostPage="wwwroot/index.html">
             <BlazorWebView.RootComponents>
-                <RootComponent Selector="#app" ComponentType="{x:Type pages:Orders}"/>
+                <RootComponent Selector="#app" ComponentType="{x:Type pages:CheckOut}"/>
             </BlazorWebView.RootComponents>
         </BlazorWebView>
     </ContentPage>
-    <ContentPage Title="Payment">
+    <ContentPage Title="Tables">
         <BlazorWebView HostPage="wwwroot/index.html">
             <BlazorWebView.RootComponents>
-                <RootComponent Selector="#app" ComponentType="{x:Type pages:Payment}"/>
+                <RootComponent Selector="#app" ComponentType="{x:Type pages:Tables}"/>
             </BlazorWebView.RootComponents>
         </BlazorWebView>
     </ContentPage>
+
 </TabbedPage>

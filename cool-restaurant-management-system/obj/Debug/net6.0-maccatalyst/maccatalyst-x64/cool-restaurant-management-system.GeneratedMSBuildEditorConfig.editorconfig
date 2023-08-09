@@ -51,6 +51,13 @@ build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/C\#/cool-restaurant-management-system/cool-restaurant-management-system/Pages/CheckOut.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tPdXQucmF6b3I=
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = b-6kgfb2ptcf
+
 [C:/C\#/cool-restaurant-management-system/cool-restaurant-management-system/Pages/Index.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
@@ -58,26 +65,19 @@ build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = b-cb8hvhylfh
 
-[C:/C\#/cool-restaurant-management-system/cool-restaurant-management-system/Pages/Orders.razor]
+[C:/C\#/cool-restaurant-management-system/cool-restaurant-management-system/Pages/SeatGuests.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzLnJhem9y
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhdEd1ZXN0cy5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
-build_metadata.AdditionalFiles.CssScope = b-y601hg0fny
+build_metadata.AdditionalFiles.CssScope = b-hgrr8nqdkr
 
-[C:/C\#/cool-restaurant-management-system/cool-restaurant-management-system/Pages/Payment.razor]
+[C:/C\#/cool-restaurant-management-system/cool-restaurant-management-system/Pages/Tables.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudC5yYXpvcg==
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzLnJhem9y
 build_metadata.AdditionalFiles.RelativePath = 
-build_metadata.AdditionalFiles.CssScope = b-5w90zd6w32
-
-[C:/C\#/cool-restaurant-management-system/cool-restaurant-management-system/Pages/ReservationsAndTables.razor]
-build_metadata.AdditionalFiles.GenKind = 
-build_metadata.AdditionalFiles.ManifestResourceName = 
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXRpb25zQW5kVGFibGVzLnJhem9y
-build_metadata.AdditionalFiles.RelativePath = 
-build_metadata.AdditionalFiles.CssScope = b-3a31ftch47
+build_metadata.AdditionalFiles.CssScope = b-0s5tpoh9c8
 
 [C:/C\#/cool-restaurant-management-system/cool-restaurant-management-system/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.GenKind = 

@@ -1,0 +1,87 @@
+﻿@page "/checkOut"
+@using cool_restaurant_management_system.Data
+@using Microsoft.Data.SqlClient
+
+
+<header>
+    <h1>Check Out Guests</h1>
+    
+
+</header>
+
+<div class="page-background">
+    <div class="flex-container">
+        <select @bind="guestIds">
+            <option value="placeholder" disabled selected>Select guest to checkout</option>
+            @foreach (Guests guest in activeGuests)
+            {
+               <option value="@guest.Guest_Id,@guest.Table_Id">Guest @guest.Name [Table @guest.Table_Id]</option>
+            }
+        </select>
+        <Button class="customButton" Clicked="@CheckoutGuest">Checkout Guest</Button>
+    </div>    
+</div>
+
+<footer>
+    Photo by <a href="https://unsplash.com/@@_danbrad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Bradley</a> on <a href="https://unsplash.com/photos/y_WDEY9e6mA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</footer>
+
+@code {
+    string guestIds;
+
+    static string connectString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Restaurant;Integrated Security=True";
+
+    List<Guests> activeGuests = ActiveGuests();
+
+    public static List<Guests> ActiveGuests()
+    {
+
+        List<Guests> guestsTemp = new List<Guests>();
+        SqlConnection connect = new SqlConnection(connectString);
+        connect.Open();
+
+        SqlCommand command = new SqlCommand("SELECT Guest_Id, Name, Phone, Table_Id FROM Guests WHERE Table_Id is not null", connect);
+
+        using (SqlDataReader reader = command.ExecuteReader())
+        {
+            while (reader.Read())
+            {
+                guestsTemp.Add(new Guests(Int32.Parse(reader[0].ToString()), reader[1].ToString(), reader[2].ToString(), Int32.Parse(reader[3].ToString())));
+            }
+        }
+
+        connect.Close();
+
+        return guestsTemp;
+    }
+
+    public void CheckoutGuest()
+    {
+        string[] IDs = guestIds.Split(',');
+        string guestId = IDs[0];
+
+        SqlConnection connect = new SqlConnection(connectString);
+        connect.Open();
+
+        SqlCommand cmd = new SqlCommand($"UPDATE Guests SET Table_Id = null WHERE Guest_Id = {guestId}", connect);
+        cmd.ExecuteNonQuery();
+        connect.Close();
+
+        UnoccupifyTable();
+        activeGuests = ActiveGuests();
+
+    }
+    public void UnoccupifyTable()
+    {
+        string[] IDs = guestIds.Split(',');
+        string tableId = IDs[1];
+
+        SqlConnection connect = new SqlConnection(connectString);
+        connect.Open();
+
+        SqlCommand cmd = new SqlCommand($"UPDATE Tables SET Is_Available = 1 WHERE Table_Id = {tableId}", connect);
+        cmd.ExecuteNonQuery();
+        connect.Close();
+
+    }
+}
