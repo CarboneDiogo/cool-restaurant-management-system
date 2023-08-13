@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-08-07T07:37:40.500</Modified>
+      <Modified>2023-08-13T19:30:38.885</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-08-07T07:37:38.929</Modified>
+      <Modified>2023-08-13T19:16:26.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.runtimeconfig.json">
       <PackagePath>cool-restaurant-management-system.runtimeconfig.json</PackagePath>
-      <Modified>2023-08-07T07:35:02.277</Modified>
+      <Modified>2023-08-13T19:16:26.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.dll">
       <PackagePath>cool-restaurant-management-system.dll</PackagePath>
-      <Modified>2023-08-07T07:37:37.637</Modified>
+      <Modified>2023-08-13T19:30:36.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>cool-restaurant-management-system.exe</PackagePath>
-      <Modified>2023-08-07T07:37:37.649</Modified>
+      <Modified>2023-08-13T19:30:36.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.16\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -2081,41 +2081,33 @@
       <PackagePath>Azure.Identity.dll</PackagePath>
       <Modified>2022-09-19T20:31:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\lib\net6.0\Blazorise.dll">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\lib\net6.0\Blazorise.dll">
       <PackagePath>Blazorise.dll</PackagePath>
-      <Modified>2023-06-14T12:11:42.000</Modified>
+      <Modified>2023-08-08T12:24:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.bootstrap\1.2.4\lib\net6.0\Blazorise.Bootstrap.dll">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.bootstrap\1.2.5\lib\net6.0\Blazorise.Bootstrap.dll">
       <PackagePath>Blazorise.Bootstrap.dll</PackagePath>
-      <Modified>2023-06-14T12:11:50.000</Modified>
+      <Modified>2023-08-08T12:24:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.licensing\1.1.0\lib\net6.0\Blazorise.Licensing.dll">
       <PackagePath>Blazorise.Licensing.dll</PackagePath>
       <Modified>2023-01-26T11:04:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\lib\net6.0\BootstrapBlazor.dll">
-      <PackagePath>BootstrapBlazor.dll</PackagePath>
-      <Modified>2023-07-30T13:33:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.authorization\6.0.18\lib\net6.0\Microsoft.AspNetCore.Authorization.dll">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.authorization\6.0.20\lib\net6.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
-      <Modified>2023-05-20T01:43:18.000</Modified>
+      <Modified>2023-06-21T19:33:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.components\6.0.18\lib\net6.0\Microsoft.AspNetCore.Components.dll">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.components\6.0.20\lib\net6.0\Microsoft.AspNetCore.Components.dll">
       <PackagePath>Microsoft.AspNetCore.Components.dll</PackagePath>
-      <Modified>2023-05-20T01:43:20.000</Modified>
+      <Modified>2023-06-21T19:35:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.components.authorization\6.0.0\lib\net6.0\Microsoft.AspNetCore.Components.Authorization.dll">
-      <PackagePath>Microsoft.AspNetCore.Components.Authorization.dll</PackagePath>
-      <Modified>2021-10-26T21:52:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.components.forms\6.0.18\lib\net6.0\Microsoft.AspNetCore.Components.Forms.dll">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.components.forms\6.0.20\lib\net6.0\Microsoft.AspNetCore.Components.Forms.dll">
       <PackagePath>Microsoft.AspNetCore.Components.Forms.dll</PackagePath>
-      <Modified>2023-05-20T01:43:22.000</Modified>
+      <Modified>2023-06-21T19:35:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.components.web\6.0.18\lib\net6.0\Microsoft.AspNetCore.Components.Web.dll">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.components.web\6.0.20\lib\net6.0\Microsoft.AspNetCore.Components.Web.dll">
       <PackagePath>Microsoft.AspNetCore.Components.Web.dll</PackagePath>
-      <Modified>2023-05-20T01:43:22.000</Modified>
+      <Modified>2023-06-21T19:35:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.components.webview\6.0.8\lib\net6.0\Microsoft.AspNetCore.Components.WebView.dll">
       <PackagePath>Microsoft.AspNetCore.Components.WebView.dll</PackagePath>
@@ -2125,9 +2117,9 @@
       <PackagePath>Microsoft.AspNetCore.Components.WebView.Maui.dll</PackagePath>
       <Modified>2023-01-19T03:13:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.metadata\6.0.18\lib\net6.0\Microsoft.AspNetCore.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.aspnetcore.metadata\6.0.20\lib\net6.0\Microsoft.AspNetCore.Metadata.dll">
       <PackagePath>Microsoft.AspNetCore.Metadata.dll</PackagePath>
-      <Modified>2023-05-20T01:43:18.000</Modified>
+      <Modified>2023-06-21T19:33:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -2136,14 +2128,6 @@
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.data.sqlclient\5.1.1\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll">
       <PackagePath>Microsoft.Data.SqlClient.dll</PackagePath>
       <Modified>2023-03-28T05:27:58.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.extensions.caching.abstractions\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
-      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
-      <Modified>2021-10-22T23:47:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.extensions.caching.memory\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
-      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
-      <Modified>2021-10-22T23:50:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -2193,18 +2177,6 @@
       <PackagePath>Microsoft.Extensions.FileSystemGlobbing.dll</PackagePath>
       <Modified>2021-10-22T23:47:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.extensions.http\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Http.dll">
-      <PackagePath>Microsoft.Extensions.Http.dll</PackagePath>
-      <Modified>2021-10-22T23:50:14.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.extensions.localization\6.0.16\lib\net6.0\Microsoft.Extensions.Localization.dll">
-      <PackagePath>Microsoft.Extensions.Localization.dll</PackagePath>
-      <Modified>2023-03-24T20:37:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.extensions.localization.abstractions\6.0.16\lib\net6.0\Microsoft.Extensions.Localization.Abstractions.dll">
-      <PackagePath>Microsoft.Extensions.Localization.Abstractions.dll</PackagePath>
-      <Modified>2023-03-24T20:37:24.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.extensions.logging\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
       <Modified>2021-10-22T23:50:34.000</Modified>
@@ -2216,10 +2188,6 @@
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.extensions.options\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Options.dll">
       <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
       <Modified>2021-10-22T23:50:00.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.extensions.options.configurationextensions\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll">
-      <PackagePath>Microsoft.Extensions.Options.ConfigurationExtensions.dll</PackagePath>
-      <Modified>2021-10-22T23:50:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.extensions.primitives\6.0.0\lib\net6.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
@@ -2261,9 +2229,9 @@
       <PackagePath>Microsoft.IdentityModel.Tokens.dll</PackagePath>
       <Modified>2022-10-13T19:29:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.jsinterop\6.0.18\lib\net6.0\Microsoft.JSInterop.dll">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.jsinterop\6.0.20\lib\net6.0\Microsoft.JSInterop.dll">
       <PackagePath>Microsoft.JSInterop.dll</PackagePath>
-      <Modified>2023-05-20T01:43:06.000</Modified>
+      <Modified>2023-06-21T19:35:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.maui.graphics\6.0.501\lib\net6.0-windows10.0.18362\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
@@ -2333,25 +2301,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-09-07T21:54:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\mudblazor\6.7.0\lib\net6.0\MudBlazor.dll">
-      <PackagePath>MudBlazor.dll</PackagePath>
-      <Modified>2023-07-10T12:02:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
-      <PackagePath>SQLite-net.dll</PackagePath>
-      <Modified>2021-09-02T21:04:32.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\sqlitepclraw.bundle_green\2.1.5\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
-      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
-      <Modified>2023-05-19T20:36:34.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\sqlitepclraw.core\2.1.5\lib\netstandard2.0\SQLitePCLRaw.core.dll">
-      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
-      <Modified>2023-05-19T20:34:16.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.5\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
-      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
-      <Modified>2023-05-19T20:34:34.000</Modified>
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\system.data.sqlclient\4.8.5\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll">
+      <PackagePath>System.Data.SqlClient.dll</PackagePath>
+      <Modified>2022-10-17T23:26:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\system.identitymodel.tokens.jwt\6.24.0\lib\net6.0\System.IdentityModel.Tokens.Jwt.dll">
       <PackagePath>System.IdentityModel.Tokens.Jwt.dll</PackagePath>
@@ -2385,13 +2337,13 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-09-07T21:54:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.5\runtimes\win-x64\native\e_sqlite3.dll">
-      <PackagePath>e_sqlite3.dll</PackagePath>
-      <Modified>2023-05-19T20:29:56.000</Modified>
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\runtime.win-x64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x64\native\sni.dll">
+      <PackagePath>sni.dll</PackagePath>
+      <Modified>2017-07-12T11:24:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\cool-restaurant-management-system.deps.json">
       <PackagePath>cool-restaurant-management-system.deps.json</PackagePath>
-      <Modified>2023-08-07T07:37:40.060</Modified>
+      <Modified>2023-08-13T19:30:38.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -2411,11 +2363,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\cool-restaurant-management-system.styles.css">
       <PackagePath>wwwroot\cool-restaurant-management-system.styles.css</PackagePath>
-      <Modified>2023-08-07T07:32:26.760</Modified>
+      <Modified>2023-08-13T02:45:03.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\cool-restaurant-management-system.bundle.scp.css">
       <PackagePath>wwwroot\cool-restaurant-management-system.bundle.scp.css</PackagePath>
-      <Modified>2023-08-07T07:32:26.762</Modified>
+      <Modified>2023-08-13T02:45:03.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
@@ -2489,485 +2441,177 @@
       <PackagePath>wwwroot\index.html</PackagePath>
       <Modified>2023-08-01T18:20:32.712</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.bootstrap\1.2.4\staticwebassets\blazorise.bootstrap.css">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.bootstrap\1.2.5\staticwebassets\blazorise.bootstrap.css">
       <PackagePath>wwwroot\_content\Blazorise.Bootstrap\blazorise.bootstrap.css</PackagePath>
-      <Modified>2023-06-14T09:33:08.000</Modified>
+      <Modified>2023-08-08T10:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.bootstrap\1.2.4\staticwebassets\blazorise.bootstrap.min.css">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.bootstrap\1.2.5\staticwebassets\blazorise.bootstrap.min.css">
       <PackagePath>wwwroot\_content\Blazorise.Bootstrap\blazorise.bootstrap.min.css</PackagePath>
-      <Modified>2023-06-14T09:33:08.000</Modified>
+      <Modified>2023-08-08T10:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.bootstrap\1.2.4\staticwebassets\modal.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.bootstrap\1.2.5\staticwebassets\modal.js">
       <PackagePath>wwwroot\_content\Blazorise.Bootstrap\modal.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.bootstrap\1.2.4\staticwebassets\tooltip.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise.bootstrap\1.2.5\staticwebassets\tooltip.js">
       <PackagePath>wwwroot\_content\Blazorise.Bootstrap\tooltip.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\blazorise.css">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\blazorise.css">
       <PackagePath>wwwroot\_content\Blazorise\blazorise.css</PackagePath>
-      <Modified>2023-03-07T13:52:50.000</Modified>
+      <Modified>2023-08-08T10:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\blazorise.min.css">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\blazorise.min.css">
       <PackagePath>wwwroot\_content\Blazorise\blazorise.min.css</PackagePath>
-      <Modified>2023-03-07T13:52:50.000</Modified>
+      <Modified>2023-08-08T10:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\breakpoint.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\breakpoint.js">
       <PackagePath>wwwroot\_content\Blazorise\breakpoint.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\button.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\button.js">
       <PackagePath>wwwroot\_content\Blazorise\button.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\closable.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\closable.js">
       <PackagePath>wwwroot\_content\Blazorise\closable.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\colorPicker.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\colorPicker.js">
       <PackagePath>wwwroot\_content\Blazorise\colorPicker.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\datePicker.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\datePicker.js">
       <PackagePath>wwwroot\_content\Blazorise\datePicker.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\dragDrop.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\dragDrop.js">
       <PackagePath>wwwroot\_content\Blazorise\dragDrop.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\dropdown.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\dropdown.js">
       <PackagePath>wwwroot\_content\Blazorise\dropdown.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\fileEdit.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\fileEdit.js">
       <PackagePath>wwwroot\_content\Blazorise\fileEdit.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\filePicker.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\filePicker.js">
       <PackagePath>wwwroot\_content\Blazorise\filePicker.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\inputMask.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\inputMask.js">
       <PackagePath>wwwroot\_content\Blazorise\inputMask.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\io.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\io.js">
       <PackagePath>wwwroot\_content\Blazorise\io.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\memoEdit.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\memoEdit.js">
       <PackagePath>wwwroot\_content\Blazorise\memoEdit.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\numericPicker.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\numericPicker.js">
       <PackagePath>wwwroot\_content\Blazorise\numericPicker.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\observer.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\observer.js">
       <PackagePath>wwwroot\_content\Blazorise\observer.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\popper.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\popper.js">
       <PackagePath>wwwroot\_content\Blazorise\popper.js</PackagePath>
-      <Modified>2023-03-07T13:52:50.000</Modified>
+      <Modified>2023-08-08T10:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\table.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\table.js">
       <PackagePath>wwwroot\_content\Blazorise\table.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\textEdit.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\textEdit.js">
       <PackagePath>wwwroot\_content\Blazorise\textEdit.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\theme.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\theme.js">
       <PackagePath>wwwroot\_content\Blazorise\theme.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\timePicker.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\timePicker.js">
       <PackagePath>wwwroot\_content\Blazorise\timePicker.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\tooltip.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\tooltip.js">
       <PackagePath>wwwroot\_content\Blazorise\tooltip.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\utilities.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\utilities.js">
       <PackagePath>wwwroot\_content\Blazorise\utilities.js</PackagePath>
-      <Modified>2023-06-14T12:10:04.000</Modified>
+      <Modified>2023-08-08T12:17:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\validators\DateTimeMaskValidator.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\validators\DateTimeMaskValidator.js">
       <PackagePath>wwwroot\_content\Blazorise\validators\DateTimeMaskValidator.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\validators\NoValidator.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\validators\NoValidator.js">
       <PackagePath>wwwroot\_content\Blazorise\validators\NoValidator.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\validators\NumericMaskValidator.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\validators\NumericMaskValidator.js">
       <PackagePath>wwwroot\_content\Blazorise\validators\NumericMaskValidator.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\validators\RegExMaskValidator.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\validators\RegExMaskValidator.js">
       <PackagePath>wwwroot\_content\Blazorise\validators\RegExMaskValidator.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\vendors\autoNumeric.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\vendors\autoNumeric.js">
       <PackagePath>wwwroot\_content\Blazorise\vendors\autoNumeric.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\vendors\Behave.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\vendors\Behave.js">
       <PackagePath>wwwroot\_content\Blazorise\vendors\Behave.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\vendors\flatpickr.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\vendors\flatpickr.js">
       <PackagePath>wwwroot\_content\Blazorise\vendors\flatpickr.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\vendors\inputmask.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\vendors\inputmask.js">
       <PackagePath>wwwroot\_content\Blazorise\vendors\inputmask.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\vendors\jsencrypt.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\vendors\jsencrypt.js">
       <PackagePath>wwwroot\_content\Blazorise\vendors\jsencrypt.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\vendors\Pickr.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\vendors\Pickr.js">
       <PackagePath>wwwroot\_content\Blazorise\vendors\Pickr.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.4\staticwebassets\vendors\sha512.js">
+    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\blazorise\1.2.5\staticwebassets\vendors\sha512.js">
       <PackagePath>wwwroot\_content\Blazorise\vendors\sha512.js</PackagePath>
       <Modified>2023-03-07T13:52:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Anchor\Anchor.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Anchor\Anchor.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\AnchorLink\AnchorLink.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\AnchorLink\AnchorLink.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\AutoComplete\AutoComplete.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\AutoComplete\AutoComplete.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Button\Button.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Button\Button.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Button\PopConfirmButton.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Button\PopConfirmButton.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Camera\Camera.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Camera\Camera.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Captcha\Captcha.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Captcha\Captcha.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Carousel\Carousel.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Carousel\Carousel.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Console\Console.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Console\Console.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\ContextMenu\ContextMenu.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\ContextMenu\ContextMenu.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\CountUp\CountUp.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\CountUp\CountUp.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\DateTimePicker\DateTimePicker.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\DateTimePicker\DateTimePicker.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\DateTimePicker\TimePickerCell.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\DateTimePicker\TimePickerCell.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Dialog\EditDialog.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Dialog\EditDialog.razor.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Dialog\IconDialog.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Dialog\IconDialog.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Drawer\Drawer.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Drawer\Drawer.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Filters\TableFilter.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Filters\TableFilter.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\GoTop\GoTop.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\GoTop\GoTop.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Handwritten\Handwritten.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Handwritten\Handwritten.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\IFrame\IFrame.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\IFrame\IFrame.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\ImagePreviewer\ImagePreviewer.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\ImagePreviewer\ImagePreviewer.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\ImageViewer\ImageViewer.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\ImageViewer\ImageViewer.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Input\BootstrapInput.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Input\BootstrapInput.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\IpAddress\IpAddress.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\IpAddress\IpAddress.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Layout\Layout.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Layout\Layout.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Menu\Menu.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Menu\Menu.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Message\Message.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Message\Message.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Modal\Modal.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Modal\Modal.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Modal\ModalDialog.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Modal\ModalDialog.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Print\PrintButton.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Print\PrintButton.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Reconnector\ReconnectorContent.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Reconnector\ReconnectorContent.razor.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\RibbonTab\RibbonTab.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\RibbonTab\RibbonTab.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Row\Row.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Row\Row.razor.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Select\MultiSelect.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Select\MultiSelect.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Select\Select.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Select\Select.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Select\SelectTree.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Select\SelectTree.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Split\Split.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Split\Split.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Tab\Tab.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Tab\Tab.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Table\Table.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Table\Table.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Textarea\Textarea.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Textarea\Textarea.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Toast\Toast.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Toast\Toast.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Tooltip\Tooltip.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Tooltip\Tooltip.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\Transition\Transition.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\Transition\Transition.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\TreeView\TreeView.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\TreeView\TreeView.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\Components\ValidateForm\ValidateForm.razor.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\Components\ValidateForm\ValidateForm.razor.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\css\bootstrap.blazor.bundle.min.css">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\css\bootstrap.blazor.bundle.min.css</PackagePath>
-      <Modified>2023-07-30T13:32:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\css\motronic.min.css">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\css\motronic.min.css</PackagePath>
-      <Modified>2023-07-30T13:32:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\js\bootstrap.blazor.bundle.min.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\js\bootstrap.blazor.bundle.min.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\lib\countUp\countUp.min.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\lib\countUp\countUp.min.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\lib\floating-ui\floating-ui.core.esm.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\lib\floating-ui\floating-ui.core.esm.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\lib\floating-ui\floating-ui.dom.esm.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\lib\floating-ui\floating-ui.dom.esm.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\ajax.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\ajax.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\autoredirect.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\autoredirect.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\base-popover.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\base-popover.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\browser.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\browser.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\client.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\client.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\data.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\data.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\debounce.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\debounce.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\download.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\download.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\drag.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\drag.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\event-handler.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\event-handler.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\event-services.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\event-services.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\eye-dropper.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\eye-dropper.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\floating-ui.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\floating-ui.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\fullscreen.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\fullscreen.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\geo.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\geo.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\input.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\input.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\noti.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\noti.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\popover.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\popover.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\responsive.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\responsive.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\title.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\title.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\upload.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\upload.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\utility.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\utility.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\validate.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\validate.js</PackagePath>
-      <Modified>2023-07-30T13:31:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\bootstrapblazor\7.9.0\staticwebassets\modules\viewer.js">
-      <PackagePath>wwwroot\_content\BootstrapBlazor\modules\viewer.js</PackagePath>
-      <Modified>2023-07-30T13:32:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\mudblazor\6.7.0\staticwebassets\MudBlazor.min.css">
-      <PackagePath>wwwroot\_content\MudBlazor\MudBlazor.min.css</PackagePath>
-      <Modified>2023-07-10T12:01:20.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\diogo\.nuget\packages\mudblazor\6.7.0\staticwebassets\MudBlazor.min.js">
-      <PackagePath>wwwroot\_content\MudBlazor\MudBlazor.min.js</PackagePath>
-      <Modified>2023-07-10T12:01:20.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-08-02T04:24:31.309</Modified>
+      <Modified>2023-08-13T02:45:05.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-08-02T04:24:31.339</Modified>
+      <Modified>2023-08-13T02:45:05.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-08-02T04:24:31.377</Modified>
+      <Modified>2023-08-13T02:45:05.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-08-02T04:24:31.444</Modified>
+      <Modified>2023-08-13T02:45:05.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-08-02T04:24:31.876</Modified>
+      <Modified>2023-08-13T02:45:05.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Black.ttf">
       <PackagePath>Montserrat-Black.ttf</PackagePath>
@@ -3047,207 +2691,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-08-02T04:24:32.093</Modified>
+      <Modified>2023-08-13T02:45:05.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.571</Modified>
+      <Modified>2023-08-13T02:45:06.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.593</Modified>
+      <Modified>2023-08-13T02:45:06.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.611</Modified>
+      <Modified>2023-08-13T02:45:06.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.645</Modified>
+      <Modified>2023-08-13T02:45:06.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.759</Modified>
+      <Modified>2023-08-13T02:45:06.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.240</Modified>
+      <Modified>2023-08-13T02:45:05.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.250</Modified>
+      <Modified>2023-08-13T02:45:05.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.281</Modified>
+      <Modified>2023-08-13T02:45:05.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.260</Modified>
+      <Modified>2023-08-13T02:45:05.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.268</Modified>
+      <Modified>2023-08-13T02:45:05.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.179</Modified>
+      <Modified>2023-08-13T02:45:05.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.185</Modified>
+      <Modified>2023-08-13T02:45:05.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.227</Modified>
+      <Modified>2023-08-13T02:45:05.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.191</Modified>
+      <Modified>2023-08-13T02:45:05.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.203</Modified>
+      <Modified>2023-08-13T02:45:05.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.111</Modified>
+      <Modified>2023-08-13T02:45:05.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.117</Modified>
+      <Modified>2023-08-13T02:45:05.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.124</Modified>
+      <Modified>2023-08-13T02:45:05.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.131</Modified>
+      <Modified>2023-08-13T02:45:05.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.139</Modified>
+      <Modified>2023-08-13T02:45:05.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.145</Modified>
+      <Modified>2023-08-13T02:45:05.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.151</Modified>
+      <Modified>2023-08-13T02:45:05.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.174</Modified>
+      <Modified>2023-08-13T02:45:05.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.158</Modified>
+      <Modified>2023-08-13T02:45:05.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.163</Modified>
+      <Modified>2023-08-13T02:45:05.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.378</Modified>
+      <Modified>2023-08-13T02:45:05.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.387</Modified>
+      <Modified>2023-08-13T02:45:05.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.399</Modified>
+      <Modified>2023-08-13T02:45:05.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.413</Modified>
+      <Modified>2023-08-13T02:45:05.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.435</Modified>
+      <Modified>2023-08-13T02:45:05.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.327</Modified>
+      <Modified>2023-08-13T02:45:05.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.336</Modified>
+      <Modified>2023-08-13T02:45:05.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.345</Modified>
+      <Modified>2023-08-13T02:45:05.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.353</Modified>
+      <Modified>2023-08-13T02:45:05.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.368</Modified>
+      <Modified>2023-08-13T02:45:05.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.287</Modified>
+      <Modified>2023-08-13T02:45:05.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.294</Modified>
+      <Modified>2023-08-13T02:45:05.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.302</Modified>
+      <Modified>2023-08-13T02:45:05.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.310</Modified>
+      <Modified>2023-08-13T02:45:05.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.321</Modified>
+      <Modified>2023-08-13T02:45:05.878</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.444</Modified>
+      <Modified>2023-08-13T02:45:05.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.460</Modified>
+      <Modified>2023-08-13T02:45:05.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.474</Modified>
+      <Modified>2023-08-13T02:45:06.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.494</Modified>
+      <Modified>2023-08-13T02:45:06.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.553</Modified>
+      <Modified>2023-08-13T02:45:06.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.140</Modified>
+      <Modified>2023-08-13T02:45:05.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.157</Modified>
+      <Modified>2023-08-13T02:45:05.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.182</Modified>
+      <Modified>2023-08-13T02:45:05.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.231</Modified>
+      <Modified>2023-08-13T02:45:05.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-08-02T04:24:32.337</Modified>
+      <Modified>2023-08-13T02:45:05.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\cprg211\cool-restaurant-management-system\cool-restaurant-management-system\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\restaurant_unsplash.scale-100.jpg">
       <PackagePath>restaurant_unsplash.scale-100.jpg</PackagePath>

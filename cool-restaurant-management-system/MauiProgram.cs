@@ -1,35 +1,31 @@
-﻿using Microsoft.AspNetCore.Components.WebView.Maui;
-using cool_restaurant_management_system.Data;
-using MudBlazor.Services;
-using Blazorise;
+﻿using Blazorise;
 using Blazorise.Bootstrap;
-using SQLite;
 
 namespace cool_restaurant_management_system;
 
 public static class MauiProgram
 {
-	public static MauiApp CreateMauiApp()
-	{
-		var builder = MauiApp.CreateBuilder();
-		builder
-			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
-			{
-				fonts.AddFont("Montserrat-Regular.ttf", "montserrat");
+    public static MauiApp CreateMauiApp()
+    {
+        var builder = MauiApp.CreateBuilder();
+        builder
+            .UseMauiApp<App>()
+            .ConfigureFonts(fonts =>
+            {
+                fonts.AddFont("Montserrat-Regular.ttf", "montserrat");
                 fonts.AddFont("Montserrat-Light", "montserrat-light");
                 fonts.AddFont("Montserrat-Bold.ttf", "montserrat-bold");
             });
 
-
-		builder.Services.AddMauiBlazorWebView();
-		builder.Services.AddBlazorise(options => { options.Immediate = true; }).AddBootstrapProviders();
+        builder.Services.AddMauiBlazorWebView();
+        builder.Services.AddBlazorise(options => { options.Immediate = true; }).AddBootstrapProviders();
+        var dbPath = Path.Combine(FileSystem.AppDataDirectory, "restaurant.db");
 
 #if DEBUG
         builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
-		
 
-		return builder.Build();
-	}
+
+        return builder.Build();
+    }
 }

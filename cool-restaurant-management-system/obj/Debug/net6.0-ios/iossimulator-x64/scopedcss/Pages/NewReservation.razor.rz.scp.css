@@ -1,0 +1,25 @@
+.page-background[b-v08ao1fqmi] {
+    background-image: url('images/reserved_table_unsplash.jpg') !important;
+    height: 89vh !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center;
+}
+
+.form-container[b-v08ao1fqmi] {
+    width: 75vh;
+    background-color: rgba(255,255,255,0.8);
+    font-weight: bold;
+}
+
+.flex-container[b-v08ao1fqmi] {
+    display: flex;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#date-time-picker[b-v08ao1fqmi] {
+    justify-content: space-evenly;
+}

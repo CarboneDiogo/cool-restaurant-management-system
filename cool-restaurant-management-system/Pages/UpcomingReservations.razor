@@ -7,41 +7,43 @@
 
 <div class="page-background">
 
-    <div class="flex-container">
+    <div class="flex-container" style="flex-direction:column">
         <div class="table-container">     
             <Table Hoverable Borderless FixedHeader FixedHeaderTableHeight="80vh">
                 <TableHeader ThemeContrast="ThemeContrast.Dark">
                     <TableRow>
                         <TableHeaderCell>#</TableHeaderCell>
-                        <TableHeaderCell>First Name</TableHeaderCell>
+                        <TableHeaderCell>Guest Name</TableHeaderCell>
                         <TableHeaderCell>Phone Number</TableHeaderCell>
-                        <TableHeaderCell>Table Status</TableHeaderCell>
+                        <TableHeaderCell>Party Size</TableHeaderCell>
                         <TableHeaderCell>Sit Guests</TableHeaderCell>
                         <TableHeaderCell>No Show</TableHeaderCell>
                     </TableRow>
                 </TableHeader>
                 <TableBody>
-                    @for (int i = 1; i <= 10; ++i)
+                    @foreach (var reservation in upcomingReservations)
                     {
-                        var index = i.ToString();
-
-                        <TableRow @key="@index">
-                            <TableRowHeader>@index</TableRowHeader>
-                            <TableRowCell>Column content</TableRowCell>
-                            <TableRowCell>Column content</TableRowCell>
-                            <TableRowCell>Column content</TableRowCell>
-                            <TableRowCell>
-                                <Button Color="Color.Success">✓</Button>
+                        if(reservation != null)
+                        {
+                            <TableRow>
+                                <TableRowHeader>1</TableRowHeader>
+                                <TableRowCell>@reservation.Guest_Name</TableRowCell>
+                                <TableRowCell>@reservation.Phone_Number</TableRowCell>
+                                <TableRowCell>@reservation.Number_of_Guests</TableRowCell>
+                                <TableRowCell>
+                                    <Button Color="Color.Success" Clicked="() => SitTable(reservation.Phone_Number)">✓</Button>
                                 </TableRowCell>
-                            <TableRowCell>
-                                <Button Color="Color.Danger">X</Button>
-                                </TableRowCell>  
-                        </TableRow>
+                                <TableRowCell>
+                                    <Button Color="Color.Danger" Clicked="() => DeleteReservation(reservation.Phone_Number)">X</Button>
+                                </TableRowCell>
+                            </TableRow>
+                        }
                     }
                 </TableBody>
             </Table>
         </div>
-        </div>
+        <Button Color="Color.Dark" Clicked="LoadReservations" Style="margin-top: 5vh">Load Reservations</Button>
+    </div>
 </div>
 
 <footer>
@@ -49,6 +51,40 @@
 </footer>
 
 @code {
+    // Create an instance of DbServer class for database operations
+    DbServer db = new DbServer();
+    List<RestaurantTables> availableTablesList = new List<RestaurantTables>();
+    List<Reservations> reservationsList = new List<Reservations>();
+    List<Reservations> upcomingReservations = new List<Reservations>();
 
+    // Load upcoming reservations based on the current day
+    void LoadReservations()
+    {
+        reservationsList = db.GetAllReservations();
+        upcomingReservations.Clear();
+        // Only Taking Reservations from the same day
+        foreach (var reservation in reservationsList)
+        {
+            if (reservation.Reservation_Date.DayOfYear - DateTime.Now.DayOfYear == 0)
+            {
+                upcomingReservations.Add(reservation);
+            }
+        }
+    }
 
+    // Accommodate guests and remove reservation
+    async void SitTable(string phone)
+    {
+        db.DeleteReservationByPhone(phone);
+        LoadReservations();
+        await Application.Current.MainPage.DisplayAlert("Success", "Guests Accommodated", "OK");
+    }
+
+    // Delete a reservation
+    async void DeleteReservation(string phone)
+    {
+        db.DeleteReservationByPhone(phone);
+        LoadReservations();
+        await Application.Current.MainPage.DisplayAlert("Success", "Reservation was Deleted", "OK");
+    }
 }

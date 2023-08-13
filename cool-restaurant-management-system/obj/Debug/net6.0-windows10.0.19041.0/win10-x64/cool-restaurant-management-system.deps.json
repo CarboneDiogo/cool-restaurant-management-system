@@ -9,18 +9,14 @@
     ".NETCoreApp,Version=v6.0/win10-x64": {
       "cool-restaurant-management-system/1.0": {
         "dependencies": {
-          "Blazorise.Bootstrap": "1.2.4",
-          "BootstrapBlazor": "7.9.0",
-          "BootstrapBlazor.Analyzers": "1.0.0",
+          "Blazorise": "1.2.5",
+          "Blazorise.Bootstrap": "1.2.5",
           "Microsoft.AspNetCore.Components.WebView.Maui": "6.0.552",
           "Microsoft.Data.SqlClient": "5.1.1",
           "Microsoft.Maui.Dependencies": "6.0.552",
           "Microsoft.Maui.Extensions": "6.0.552",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194",
-          "MudBlazor": "6.7.0",
-          "SQLitePCLRaw.bundle_green": "2.1.5",
-          "SQLitePCLRaw.core": "2.1.5",
-          "sqlite-net-pcl": "1.8.116",
+          "System.Data.SqlClient": "4.8.5",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.16",
           "runtimepack.Microsoft.WindowsDesktop.App.Runtime.win-x64": "6.0.16",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "6.0.552",
@@ -1172,31 +1168,31 @@
           }
         }
       },
-      "Blazorise/1.2.4": {
+      "Blazorise/1.2.5": {
         "dependencies": {
           "Blazorise.Licensing": "1.1.0",
-          "Microsoft.AspNetCore.Components": "6.0.18",
-          "Microsoft.AspNetCore.Components.Web": "6.0.18",
+          "Microsoft.AspNetCore.Components": "6.0.20",
+          "Microsoft.AspNetCore.Components.Web": "6.0.20",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.4"
         },
         "runtime": {
           "lib/net6.0/Blazorise.dll": {
-            "assemblyVersion": "1.2.4.0",
-            "fileVersion": "1.2.4.0"
+            "assemblyVersion": "1.2.5.0",
+            "fileVersion": "1.2.5.0"
           }
         }
       },
-      "Blazorise.Bootstrap/1.2.4": {
+      "Blazorise.Bootstrap/1.2.5": {
         "dependencies": {
-          "Blazorise": "1.2.4",
-          "Microsoft.AspNetCore.Components": "6.0.18",
-          "Microsoft.AspNetCore.Components.Web": "6.0.18",
+          "Blazorise": "1.2.5",
+          "Microsoft.AspNetCore.Components": "6.0.20",
+          "Microsoft.AspNetCore.Components.Web": "6.0.20",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.4"
         },
         "runtime": {
           "lib/net6.0/Blazorise.Bootstrap.dll": {
-            "assemblyVersion": "1.2.4.0",
-            "fileVersion": "1.2.4.0"
+            "assemblyVersion": "1.2.5.0",
+            "fileVersion": "1.2.5.0"
           }
         }
       },
@@ -1208,91 +1204,61 @@
           }
         }
       },
-      "BootstrapBlazor/7.9.0": {
+      "Microsoft.AspNetCore.Authorization/6.0.20": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Authorization": "6.0.0",
-          "Microsoft.AspNetCore.Components.Web": "6.0.18",
-          "Microsoft.Extensions.Caching.Memory": "6.0.0",
-          "Microsoft.Extensions.Configuration.Json": "6.0.0",
-          "Microsoft.Extensions.Http": "6.0.0",
-          "Microsoft.Extensions.Localization": "6.0.16",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/BootstrapBlazor.dll": {
-            "assemblyVersion": "7.9.0.0",
-            "fileVersion": "7.9.0.0"
-          }
-        }
-      },
-      "BootstrapBlazor.Analyzers/1.0.0": {},
-      "Microsoft.AspNetCore.Authorization/6.0.18": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "6.0.18",
+          "Microsoft.AspNetCore.Metadata": "6.0.20",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.4",
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1823.26909"
+            "fileVersion": "6.0.2023.32106"
           }
         }
       },
-      "Microsoft.AspNetCore.Components/6.0.18": {
+      "Microsoft.AspNetCore.Components/6.0.20": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.18",
-          "Microsoft.AspNetCore.Components.Analyzers": "6.0.18"
+          "Microsoft.AspNetCore.Authorization": "6.0.20",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.20"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1823.26909"
+            "fileVersion": "6.0.2023.32106"
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/6.0.18": {},
-      "Microsoft.AspNetCore.Components.Authorization/6.0.0": {
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.20": {},
+      "Microsoft.AspNetCore.Components.Forms/6.0.20": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.18",
-          "Microsoft.AspNetCore.Components": "6.0.18"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52608"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Components.Forms/6.0.18": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.18"
+          "Microsoft.AspNetCore.Components": "6.0.20"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1823.26909"
+            "fileVersion": "6.0.2023.32106"
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/6.0.18": {
+      "Microsoft.AspNetCore.Components.Web/6.0.20": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.18",
-          "Microsoft.AspNetCore.Components.Forms": "6.0.18",
+          "Microsoft.AspNetCore.Components": "6.0.20",
+          "Microsoft.AspNetCore.Components.Forms": "6.0.20",
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
-          "Microsoft.JSInterop": "6.0.18",
+          "Microsoft.JSInterop": "6.0.20",
           "System.IO.Pipelines": "6.0.3"
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1823.26909"
+            "fileVersion": "6.0.2023.32106"
           }
         }
       },
       "Microsoft.AspNetCore.Components.WebView/6.0.8": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "6.0.18",
+          "Microsoft.AspNetCore.Components.Web": "6.0.20",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.Configuration.Json": "6.0.0",
           "Microsoft.Extensions.FileProviders.Composite": "6.0.0",
@@ -1308,9 +1274,9 @@
       },
       "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.18",
+          "Microsoft.AspNetCore.Authorization": "6.0.20",
           "Microsoft.AspNetCore.Components.WebView": "6.0.8",
-          "Microsoft.JSInterop": "6.0.18"
+          "Microsoft.JSInterop": "6.0.20"
         },
         "runtime": {
           "lib/net6.0-windows10.0.19041/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
@@ -1319,11 +1285,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Metadata/6.0.18": {
+      "Microsoft.AspNetCore.Metadata/6.0.20": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1823.26909"
+            "fileVersion": "6.0.2023.32106"
           }
         }
       },
@@ -1363,32 +1329,6 @@
         "native": {
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "fileVersion": "5.1.0.0"
-          }
-        }
-      },
-      "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
-      "Microsoft.Extensions.Caching.Memory/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.4",
-          "Microsoft.Extensions.Options": "6.0.0",
-          "Microsoft.Extensions.Primitives": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
           }
         }
       },
@@ -1531,42 +1471,6 @@
           }
         }
       },
-      "Microsoft.Extensions.Http/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.4",
-          "Microsoft.Extensions.Options": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
-      "Microsoft.Extensions.Localization/6.0.16": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Localization.Abstractions": "6.0.16",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.4",
-          "Microsoft.Extensions.Options": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Localization.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1623.17406"
-          }
-        }
-      },
-      "Microsoft.Extensions.Localization.Abstractions/6.0.16": {
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Localization.Abstractions.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1623.17406"
-          }
-        }
-      },
       "Microsoft.Extensions.Logging/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
@@ -1597,21 +1501,6 @@
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0",
-          "Microsoft.Extensions.Primitives": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
@@ -1737,11 +1626,11 @@
           }
         }
       },
-      "Microsoft.JSInterop/6.0.18": {
+      "Microsoft.JSInterop/6.0.20": {
         "runtime": {
           "lib/net6.0/Microsoft.JSInterop.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1823.26909"
+            "fileVersion": "6.0.2023.32106"
           }
         }
       },
@@ -1813,6 +1702,12 @@
           }
         }
       },
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
       "Microsoft.Win32.SystemEvents/6.0.0": {},
       "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {},
       "Microsoft.WindowsAppSDK/1.1.5": {
@@ -1871,82 +1766,46 @@
           }
         }
       },
-      "MudBlazor/6.7.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.18",
-          "Microsoft.AspNetCore.Components.Web": "6.0.18",
-          "Microsoft.Extensions.Localization": "6.0.16"
-        },
-        "runtime": {
-          "lib/net6.0/MudBlazor.dll": {
-            "assemblyVersion": "6.7.0.0",
-            "fileVersion": "6.7.0.0"
-          }
-        }
-      },
       "runtime.any.System.Runtime/4.3.0": {
         "dependencies": {
           "System.Private.Uri": "4.3.0"
         }
       },
       "runtime.any.System.Text.Encoding/4.3.0": {},
-      "runtime.win7.System.Private.Uri/4.3.0": {},
-      "sqlite-net-pcl/1.8.116": {
+      "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.1.5"
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLite-net.dll": {
-            "assemblyVersion": "1.8.116.0",
-            "fileVersion": "1.8.116.0"
-          }
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.5": {
-        "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.5",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.5"
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {
-            "assemblyVersion": "2.1.5.1964",
-            "fileVersion": "2.1.5.1964"
-          }
-        }
-      },
-      "SQLitePCLRaw.core/2.1.5": {
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
-            "assemblyVersion": "2.1.5.1964",
-            "fileVersion": "2.1.5.1964"
-          }
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.5": {
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {},
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "native": {
-          "runtimes/win-x64/native/e_sqlite3.dll": {
-            "fileVersion": "0.0.0.0"
+          "runtimes/win-x64/native/sni.dll": {
+            "fileVersion": "4.6.25512.1"
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.5": {
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.1.5"
-        },
-        "runtime": {
-          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
-            "assemblyVersion": "2.1.5.1964",
-            "fileVersion": "2.1.5.1964"
-          }
-        }
-      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {},
+      "runtime.win7.System.Private.Uri/4.3.0": {},
       "System.Configuration.ConfigurationManager/6.0.1": {
         "dependencies": {
           "System.Security.Cryptography.ProtectedData": "6.0.0",
           "System.Security.Permissions": "6.0.0"
+        }
+      },
+      "System.Data.SqlClient/4.8.5": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Security.Principal.Windows": "5.0.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0"
+        },
+        "runtime": {
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.5",
+            "fileVersion": "4.700.22.51706"
+          }
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -2116,19 +1975,19 @@
       "path": "azure.identity/1.7.0",
       "hashPath": "azure.identity.1.7.0.nupkg.sha512"
     },
-    "Blazorise/1.2.4": {
+    "Blazorise/1.2.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MSnc+/E/Z4O0BvRUJ4ISSpDvHEdaipsC1GRcxIaoUk62FBuMNVfIsn+1/oWL1vyuDxTPspUjWniy3EaHQRp5HQ==",
-      "path": "blazorise/1.2.4",
-      "hashPath": "blazorise.1.2.4.nupkg.sha512"
+      "sha512": "sha512-fTYSCaJfLxXGSpr4SvE9UN3ZC95vrWpoAlbXeatPNwh3V4KmYSjHwVHNYruHSvpg3Wva0/ucewACybNYvqs+iw==",
+      "path": "blazorise/1.2.5",
+      "hashPath": "blazorise.1.2.5.nupkg.sha512"
     },
-    "Blazorise.Bootstrap/1.2.4": {
+    "Blazorise.Bootstrap/1.2.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CCVeff1RHcyPPKBdkpFbkcdgIJPaeuV/cUxxmIpIj/SKPjgJXE7pvJAAtrD/A9F2seyLDYt+j0cgenVVvdmFvA==",
-      "path": "blazorise.bootstrap/1.2.4",
-      "hashPath": "blazorise.bootstrap.1.2.4.nupkg.sha512"
+      "sha512": "sha512-L6LSNInrwimasleCmowh5Nfsh7zE/fYlRToMNxGGmbOUsXTgY10wOyE6cfezPE1lA88QdNQziCkRHOVF8Kx6qQ==",
+      "path": "blazorise.bootstrap/1.2.5",
+      "hashPath": "blazorise.bootstrap.1.2.5.nupkg.sha512"
     },
     "Blazorise.Licensing/1.1.0": {
       "type": "package",
@@ -2137,61 +1996,40 @@
       "path": "blazorise.licensing/1.1.0",
       "hashPath": "blazorise.licensing.1.1.0.nupkg.sha512"
     },
-    "BootstrapBlazor/7.9.0": {
+    "Microsoft.AspNetCore.Authorization/6.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Xp2dsglU1ky3OrUzylxxhyVRNZIrk61P2byueSkb3R0FyWMDtM+Xi2YDAOrkSGdPKZmttkhFa+8ic5heZIhuGw==",
-      "path": "bootstrapblazor/7.9.0",
-      "hashPath": "bootstrapblazor.7.9.0.nupkg.sha512"
+      "sha512": "sha512-6zKE0FO2K5XQHzvfirA2DZxRSKDWYpUayIBjw/E720/eDZgFeSacxxv+GS/UmeqOS/yKnXDqQt9GJ9dPuzrgRA==",
+      "path": "microsoft.aspnetcore.authorization/6.0.20",
+      "hashPath": "microsoft.aspnetcore.authorization.6.0.20.nupkg.sha512"
     },
-    "BootstrapBlazor.Analyzers/1.0.0": {
+    "Microsoft.AspNetCore.Components/6.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fY9fWFqDhU4YnzDN3+27gyV4q0VsNw/DRxVb4YECqkSUJJYRxqeaDhh/8gXMXaantY1C2IwZ7DeC4/PWMkVsqQ==",
-      "path": "bootstrapblazor.analyzers/1.0.0",
-      "hashPath": "bootstrapblazor.analyzers.1.0.0.nupkg.sha512"
+      "sha512": "sha512-jspQ790G967an/Ur7da0f1S9vrjZCxI88HKuVEfgx35kq1J027Wjavde0pO5ZyVHrHDH+mCCAaXpxYnnFmPERg==",
+      "path": "microsoft.aspnetcore.components/6.0.20",
+      "hashPath": "microsoft.aspnetcore.components.6.0.20.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authorization/6.0.18": {
+    "Microsoft.AspNetCore.Components.Analyzers/6.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EG0nXXP49Sa2D/5Hak+kVxOloVJig0FHt+2u0u1ZWc25dyZ8gQeH2XtV4Zy3BlyqJbGOFsJ3D0TY08SXQ0McHg==",
-      "path": "microsoft.aspnetcore.authorization/6.0.18",
-      "hashPath": "microsoft.aspnetcore.authorization.6.0.18.nupkg.sha512"
+      "sha512": "sha512-RHA2EQQAlvxWPfzPWJI4HijwtSJItexaETTQWsFm4keNgtlS4J+B0t1B1x/84M/wjpTG4cncaKcXnE1HpaS7Ig==",
+      "path": "microsoft.aspnetcore.components.analyzers/6.0.20",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.6.0.20.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components/6.0.18": {
+    "Microsoft.AspNetCore.Components.Forms/6.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iyK3AYe/4ttNP1r45CHO6ZAlBz71KcHo3IhP3qIp8RshCmmT+hBCJ9gDkHiRiR5cDlJmobUgqnDzcGOtDuLIpQ==",
-      "path": "microsoft.aspnetcore.components/6.0.18",
-      "hashPath": "microsoft.aspnetcore.components.6.0.18.nupkg.sha512"
+      "sha512": "sha512-sDebyBBImJU72bkt6EqUCutT1ZWcrm16w/MthkL3eIs8euNKLn7Xt8Bz3dAUE2MJCcxqd9AZDotlbdyu7XQV9w==",
+      "path": "microsoft.aspnetcore.components.forms/6.0.20",
+      "hashPath": "microsoft.aspnetcore.components.forms.6.0.20.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Components.Analyzers/6.0.18": {
+    "Microsoft.AspNetCore.Components.Web/6.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Kfe+FjOvXBnBv3JQkwchoayL7SYiwrIvzJdzwx8t9WcyVBPOzT3hCXxODxXnjRyv33hrTtXNS0CiDkurJEpsAA==",
-      "path": "microsoft.aspnetcore.components.analyzers/6.0.18",
-      "hashPath": "microsoft.aspnetcore.components.analyzers.6.0.18.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Components.Authorization/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-AdrLj0S71GgcGUm7MMzwjzpkmAO044nFhzmvT+x/acB0HNyolWo6jMZBXxEm93iQDSeFlfRQGsw+bD+6mdMhYg==",
-      "path": "microsoft.aspnetcore.components.authorization/6.0.0",
-      "hashPath": "microsoft.aspnetcore.components.authorization.6.0.0.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Components.Forms/6.0.18": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-SYLK5kfXOW2E8rGnAMQRv6O0W54xu36mTaB5WOwQsALmIvx2EiWLK3Owj7avZUvsH4UwGrE8O3cuAdsir4MDxQ==",
-      "path": "microsoft.aspnetcore.components.forms/6.0.18",
-      "hashPath": "microsoft.aspnetcore.components.forms.6.0.18.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Components.Web/6.0.18": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-V2bEOmSgzoCrp7HY/Z8X0xDWCGbR4juKJ/tNOrZnkwrOCuS9LXW0N4oSwjKIHwn/8m8Sifvo7oYY0DHhHB5MdQ==",
-      "path": "microsoft.aspnetcore.components.web/6.0.18",
-      "hashPath": "microsoft.aspnetcore.components.web.6.0.18.nupkg.sha512"
+      "sha512": "sha512-oLiI+0YPMb7miSMh8Su4l0nwGJ/HKXyQPDbAFgdBlDQSrYC5OuVfe0PhlxMPkiJaGiYolDATPWYyGKOwA31K7w==",
+      "path": "microsoft.aspnetcore.components.web/6.0.20",
+      "hashPath": "microsoft.aspnetcore.components.web.6.0.20.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.WebView/6.0.8": {
       "type": "package",
@@ -2207,12 +2045,12 @@
       "path": "microsoft.aspnetcore.components.webview.maui/6.0.552",
       "hashPath": "microsoft.aspnetcore.components.webview.maui.6.0.552.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Metadata/6.0.18": {
+    "Microsoft.AspNetCore.Metadata/6.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jUdslp9xdZqvTfF2to6gNPTpUKzSd1aYGtIa8IIyBI9JruhBBsoOYsqLJNsBPNkyxiZExLFivTmS2D/vurpy2g==",
-      "path": "microsoft.aspnetcore.metadata/6.0.18",
-      "hashPath": "microsoft.aspnetcore.metadata.6.0.18.nupkg.sha512"
+      "sha512": "sha512-RAOQyXJk3JuA+hW1yRRnkdxPsyZ+vLlufwpD0uLHcLIEyIzK/FtKQ/CegrN09pmAZzWvgteISz9IXN+xJGOQnQ==",
+      "path": "microsoft.aspnetcore.metadata/6.0.20",
+      "hashPath": "microsoft.aspnetcore.metadata.6.0.20.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -2241,20 +2079,6 @@
       "sha512": "sha512-jVsElisM5sfBzaaV9kdq2NXZLwIbytetnsOIlJ0cQGgQP4zFNBmkfHBnpwtmKrtBJBEV9+9PVQPVrcCVhDgcIg==",
       "path": "microsoft.data.sqlclient.sni.runtime/5.1.0",
       "hashPath": "microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bcz5sSFJbganH0+YrfvIjJDIcKNW7TL07C4d1eTmXy/wOt52iz4LVogJb6pazs7W0+74j0YpXFErvp++Aq5Bsw==",
-      "path": "microsoft.extensions.caching.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Caching.Memory/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Ve3BlCzhAlVp5IgO3+8dacAhZk1A0GlIlFNkAcfR2TfAibLKWIt5DhVJZfu4YtW+XZ89OjYf/agMcgjDtPxdGA==",
-      "path": "microsoft.extensions.caching.memory/6.0.0",
-      "hashPath": "microsoft.extensions.caching.memory.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/6.0.1": {
       "type": "package",
@@ -2340,27 +2164,6 @@
       "path": "microsoft.extensions.filesystemglobbing/6.0.0",
       "hashPath": "microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Http/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-15+pa2G0bAMHbHewaQIdr/y6ag2H3yh4rd9hTXavtWDzQBkvpe2RMqFg8BxDpcQWssmjmBApGPcw93QRz6YcMg==",
-      "path": "microsoft.extensions.http/6.0.0",
-      "hashPath": "microsoft.extensions.http.6.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Localization/6.0.16": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/CCqV+sFHge5PTOIRYvMp37H5yRGfSJSN+1r1Dd8jyagVPBqDzk6cx377KuB/e1m41TDrQFUg40QIIrSorVWcw==",
-      "path": "microsoft.extensions.localization/6.0.16",
-      "hashPath": "microsoft.extensions.localization.6.0.16.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Localization.Abstractions/6.0.16": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-eRCoZcG/6YqGJQrYziPOc2SmbgJq2ZtP6A9dnvc+9QBDvBHMQZLijpX68NbjGP4OlBpVId512uyuB72boOofuA==",
-      "path": "microsoft.extensions.localization.abstractions/6.0.16",
-      "hashPath": "microsoft.extensions.localization.abstractions.6.0.16.nupkg.sha512"
-    },
     "Microsoft.Extensions.Logging/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2381,13 +2184,6 @@
       "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
       "path": "microsoft.extensions.options/6.0.0",
       "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bXWINbTn0vC0FYc9GaQTISbxhQLAMrvtbuvD9N6JelEaIS/Pr62wUCinrq5bf1WRBGczt1v4wDhxFtVFNcMdUQ==",
-      "path": "microsoft.extensions.options.configurationextensions/6.0.0",
-      "hashPath": "microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/6.0.0": {
       "type": "package",
@@ -2459,12 +2255,12 @@
       "path": "microsoft.identitymodel.tokens/6.24.0",
       "hashPath": "microsoft.identitymodel.tokens.6.24.0.nupkg.sha512"
     },
-    "Microsoft.JSInterop/6.0.18": {
+    "Microsoft.JSInterop/6.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+RiIIX1jXPh9rAEKhUl7Z6sciN1hFwnsCh/FTuq3VUMbYVB/CehkKwpXzTuymHWoGHDTCPMOLN2I0D2Ksc86Iw==",
-      "path": "microsoft.jsinterop/6.0.18",
-      "hashPath": "microsoft.jsinterop.6.0.18.nupkg.sha512"
+      "sha512": "sha512-QGyHbd8syEFh7vd7ROTb8Q36FO1Kz4xQIDzH/+N7m15x3hAtvXcboySfjEcLbP3uemgIh0hsZy4khcAfXuFsfg==",
+      "path": "microsoft.jsinterop/6.0.20",
+      "hashPath": "microsoft.jsinterop.6.0.20.nupkg.sha512"
     },
     "Microsoft.Maui.Dependencies/6.0.552": {
       "type": "package",
@@ -2522,6 +2318,13 @@
       "path": "microsoft.web.webview2/1.0.864.35",
       "hashPath": "microsoft.web.webview2.1.0.864.35.nupkg.sha512"
     },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
     "Microsoft.Win32.SystemEvents/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2543,13 +2346,6 @@
       "path": "microsoft.windowsappsdk/1.1.5",
       "hashPath": "microsoft.windowsappsdk.1.1.5.nupkg.sha512"
     },
-    "MudBlazor/6.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-IwhZPbMV10KvET4uA1tXVtobEyIjKHKUkOTqsUaNxhNSt+MbJTXUaEiab55+vVCtAQF4dqewx+rYOEpdeLN1sQ==",
-      "path": "mudblazor/6.7.0",
-      "hashPath": "mudblazor.6.7.0.nupkg.sha512"
-    },
     "runtime.any.System.Runtime/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2564,6 +2360,34 @@
       "path": "runtime.any.system.text.encoding/4.3.0",
       "hashPath": "runtime.any.system.text.encoding.4.3.0.nupkg.sha512"
     },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
     "runtime.win7.System.Private.Uri/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2571,47 +2395,19 @@
       "path": "runtime.win7.system.private.uri/4.3.0",
       "hashPath": "runtime.win7.system.private.uri.4.3.0.nupkg.sha512"
     },
-    "sqlite-net-pcl/1.8.116": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
-      "path": "sqlite-net-pcl/1.8.116",
-      "hashPath": "sqlite-net-pcl.1.8.116.nupkg.sha512"
-    },
-    "SQLitePCLRaw.bundle_green/2.1.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TEWM06zE7it0rKSi9au7o9lE2IsLj+MNF5x5DGpTHPw4Io+0hI6Azfi6tCWR2ijS+nqN6L93Q1p+5Rc+dDxXPQ==",
-      "path": "sqlitepclraw.bundle_green/2.1.5",
-      "hashPath": "sqlitepclraw.bundle_green.2.1.5.nupkg.sha512"
-    },
-    "SQLitePCLRaw.core/2.1.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-gZQMpefwszRkDjnNGxVmykOIaVAzBsR082ODO2myRFcyeSGiv4B1E4Ol+lijqD/SXK/ofyO2/U7dOwVfnzaVdg==",
-      "path": "sqlitepclraw.core/2.1.5",
-      "hashPath": "sqlitepclraw.core.2.1.5.nupkg.sha512"
-    },
-    "SQLitePCLRaw.lib.e_sqlite3/2.1.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Fqp/FQlb+USnEC2qfWOdsY4fFir3sob9BQMgdT3rcamUAoB7id8V0WknWdsFnE4TXBKDiM79+oPoZoHAuU/dsg==",
-      "path": "sqlitepclraw.lib.e_sqlite3/2.1.5",
-      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.1.5.nupkg.sha512"
-    },
-    "SQLitePCLRaw.provider.e_sqlite3/2.1.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/HG+f7/NZn+51NItD3LKJCMWL5AI9aEkqIYplr4eHeWmMf+TEn8cYxkhQ1jUA9bSUscCHlZbNt+nyegZxQ1SLw==",
-      "path": "sqlitepclraw.provider.e_sqlite3/2.1.5",
-      "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.5.nupkg.sha512"
-    },
     "System.Configuration.ConfigurationManager/6.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-jXw9MlUu/kRfEU0WyTptAVueupqIeE3/rl0EZDMlf8pcvJnitQ8HeVEp69rZdaStXwTV72boi/Bhw8lOeO+U2w==",
       "path": "system.configuration.configurationmanager/6.0.1",
       "hashPath": "system.configuration.configurationmanager.6.0.1.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.8.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fRqxut4lrndPHrXD+ht1XRmCL3obuKldm4XjCRYS9p5f7FSR7shBxAwTkDrpFMsHC9BhNgjjmUtiIjvehn5zkg==",
+      "path": "system.data.sqlclient/4.8.5",
+      "hashPath": "system.data.sqlclient.4.8.5.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "type": "package",
